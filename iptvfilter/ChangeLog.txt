@@ -1,0 +1,19 @@
+﻿V.2.0.0.2 Alpha 2 
+-- minor bugfix
+
+V.2.0.0.1 Alpha 1 
+-- Fix clean series button
+-- Build m3u movie order by group and name
+-- Create OutFilePath if not exists
+-- Use OutFilePath to deploy converted files
+-- Add button to open output build directory
+-- Manage M3U local file
+
+V.2.0.0.0 Alpha 1 (new release, first public release)
+-- removed channel list from DB
+-- channel list are on json files
+-- implemented 4 m3u export
+-- implemented strm export
+-- implemented xmllivepro export
+
+V.1.0.0.0 (first release)
