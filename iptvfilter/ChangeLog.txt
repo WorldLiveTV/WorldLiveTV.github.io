@@ -1,7 +1,24 @@
-﻿V.2.0.0.2 Alpha 2 
+﻿v.2.0.3.0 Beta 3
+-- avoid duplicated during export
+-- add filter engine exception (avoid video like "wonder woman 1984" to be inserted into 1900 years)
+-- parameterized suffix and prefix to clean the video name
+-- XML & KTK export disabled, they aren't working for now
+
+v.2.0.2.0 Beta 2 
+-- Improved performance during files creation
+-- Modified convertion engine
+-- Implemented Sort number priority and now get distinct filename to avoid more duplicate for the same video
+-- Categories list ordered by type and name
+-- fix if movie title is a year only (like the film "1947")
+
+v.2.0.1.0 Beta 1 (non public)
+-- minor bugfix
+-- various refactoring
+
+v.2.0.0.2 Alpha 2 (non public)
 -- minor bugfix
 
-V.2.0.0.1 Alpha 1 
+v.2.0.0.1 Alpha 1 
 -- Fix clean series button
 -- Build m3u movie order by group and name
 -- Create OutFilePath if not exists
@@ -9,11 +26,11 @@ V.2.0.0.1 Alpha 1
 -- Add button to open output build directory
 -- Manage M3U local file
 
-V.2.0.0.0 Alpha 1 (new release, first public release)
+v.2.0.0.0 Alpha 1 (new release, first public release)
 -- removed channel list from DB
 -- channel list are on json files
 -- implemented 4 m3u export
 -- implemented strm export
 -- implemented xmllivepro export
 
-V.1.0.0.0 (first release)
+v.1.0.0.0 (first release)
