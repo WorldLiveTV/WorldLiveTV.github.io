@@ -1,0 +1,270 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-chno=1 tvg-id="rai1" tvg-name="Rai 1"  group-title="WLTV",Rai 1
+plugin://plugin.video.wltvhelper/?play/rai/Rai 1
+#EXTINF:-1 tvg-chno=2 tvg-id="rai2" tvg-name="Rai 2"  group-title="WLTV",Rai 2
+plugin://plugin.video.wltvhelper/?play/rai/Rai 2
+#EXTINF:-1 tvg-chno=3 tvg-id="rai3" tvg-name="Rai 3"  group-title="WLTV",Rai 3
+plugin://plugin.video.wltvhelper/?play/rai/Rai 3
+#EXTINF:-1 tvg-chno=4 tvg-id="rete4" tvg-name="Rete 4"  group-title="WLTV",Rete 4
+plugin://plugin.video.wltvhelper/?play/mediaset/Rete 4
+#EXTINF:-1 tvg-chno=5 tvg-id="canale5" tvg-name="Canale 5"  group-title="WLTV",Canale 5
+plugin://plugin.video.wltvhelper/?play/mediaset/Canale 5
+#EXTINF:-1 tvg-chno=6 tvg-id="italia1" tvg-name="Italia 1"  group-title="WLTV",Italia 1
+plugin://plugin.video.wltvhelper/?play/mediaset/Italia 1
+#EXTINF:-1 tvg-chno=7 tvg-id="la7" tvg-name="La7"  group-title="WLTV",La7
+plugin://plugin.video.wltvhelper/?play/la7/La7
+#EXTINF:-1 tvg-chno=8 tvg-id="tv8" tvg-name="Tv8"  group-title="WLTV",Tv8
+plugin://plugin.video.wltvhelper/?play/sky/TV8
+#EXTINF:-1 tvg-chno=9 tvg-id="nove" tvg-name="Nove"  group-title="WLTV",Nove
+plugin://plugin.video.wltvhelper/?play/discovery/NOVE
+#EXTINF:-1 tvg-chno=20 tvg-id="mediaset20" tvg-name="20 Mediaset"  group-title="WLTV",20 Mediaset
+plugin://plugin.video.wltvhelper/?play/mediaset/20
+#EXTINF:-1 tvg-chno=21 tvg-id="rai4" tvg-name="Rai 4"  group-title="WLTV",Rai 4
+plugin://plugin.video.wltvhelper/?play/rai/Rai 4
+#EXTINF:-1 tvg-chno=22 tvg-id="iris" tvg-name="Iris"  group-title="WLTV",Iris
+plugin://plugin.video.wltvhelper/?play/mediaset/Iris
+#EXTINF:-1 tvg-chno=23 tvg-id="rai5" tvg-name="Rai 5"  group-title="WLTV",Rai 5
+plugin://plugin.video.wltvhelper/?play/rai/Rai 5
+#EXTINF:-1 tvg-chno=24 tvg-id="raimovie" tvg-name="Rai Movie"  group-title="WLTV",Rai Movie
+plugin://plugin.video.wltvhelper/?play/rai/Rai Movie
+#EXTINF:-1 tvg-chno=25 tvg-id="raipremium" tvg-name="Rai Premium"  group-title="WLTV",Rai Premium
+plugin://plugin.video.wltvhelper/?play/rai/Rai Premium
+#EXTINF:-1 tvg-chno=26 tvg-id="cielo" tvg-name="Cielo"  group-title="WLTV",Cielo
+plugin://plugin.video.wltvhelper/?play/sky/Cielo
+#EXTINF:-1 tvg-chno=27 tvg-id="paramountnetwork" tvg-name="Paramount Network"  group-title="WLTV",Paramount Network
+plugin://plugin.video.wltvhelper/?play/paramount/Paramount
+#EXTINF:-1 tvg-chno=28 tvg-id="TV2000" tvg-name="TV2000"  group-title="DTT",TV2000
+https://cld03wz.tv2000.it/tv2000_main.m3u8
+#EXTINF:-1 tvg-chno=29 tvg-id="la7d" tvg-name="La7d"  group-title="WLTV",La7d
+plugin://plugin.video.wltvhelper/?play/la7/La7d
+#EXTINF:-1 tvg-chno=30 tvg-id="la5" tvg-name="La5"  group-title="WLTV",La5
+plugin://plugin.video.wltvhelper/?play/mediaset/La 5
+#EXTINF:-1 tvg-chno=31 tvg-id="realtime" tvg-name="Real Time"  group-title="WLTV",Real Time
+plugin://plugin.video.wltvhelper/?play/discovery/Real Time
+#EXTINF:-1 tvg-chno=32 tvg-id="qvcitalia" tvg-name="QVC Italia"  group-title="DTT",QVC Italia
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/1/prog_index.m3u8
+#EXTINF:-1 tvg-chno=33 tvg-id="foodnetwork" tvg-name="Food Network"  group-title="DTT",Food Network
+https://sbshdlu5-lh.akamaihd.net/i/sbshdl_6@1000854/master.m3u8
+#EXTINF:-1 tvg-chno=34 tvg-id="cine34" tvg-name="Cine34"  group-title="WLTV",Cine34
+plugin://plugin.video.wltvhelper/?play/mediaset/Cine34
+#EXTINF:-1 tvg-chno=35 tvg-id="focus" tvg-name="Focus"  group-title="WLTV",Focus
+plugin://plugin.video.wltvhelper/?play/mediaset/Focus
+#EXTINF:-1 tvg-chno=36 tvg-id="rtl102.5tv" tvg-name="RTL 102.5"  group-title="Radio",RTL 102.5
+https://rtl-video1-stream.thron.com/live-video/video1/ngrp:video1/playlist.m3u8
+#EXTINF:-1 tvg-chno=37 tvg-id="hse24" tvg-name="HSE24"  group-title="Shopping",HSE24
+https://5f11919dca3bd.streamlock.net/HSE24/HSE24/playlist.m3u8
+#EXTINF:-1 tvg-chno=38 tvg-id="giallo" tvg-name="Giallo"  group-title="DTT",Giallo
+https://sbshdlu5-lh.akamaihd.net/i/sbshdl_2@810996/master.m3u8
+#EXTINF:-1 tvg-chno=39 tvg-id="topcrime" tvg-name="Top Crime"  group-title="WLTV",Top Crime
+plugin://plugin.video.wltvhelper/?play/mediaset/Top Crime
+#EXTINF:-1 tvg-chno=40 tvg-id="boing" tvg-name="Boing"  group-title="WLTV",Boing
+plugin://plugin.video.wltvhelper/?play/mediaset/Boing
+#EXTINF:-1 tvg-chno=41 tvg-id="k2" tvg-name="K2"  group-title="WLTV",K2
+plugin://plugin.video.wltvhelper/?play/mediaset/K2
+#EXTINF:-1 tvg-chno=42 tvg-id="raigulp" tvg-name="Rai Gulp"  group-title="WLTV",Rai Gulp
+plugin://plugin.video.wltvhelper/?play/rai/Rai Gulp
+#EXTINF:-1 tvg-chno=43 tvg-id="raiyoyo" tvg-name="Rai Yoyo"  group-title="WLTV",Rai Yoyo
+plugin://plugin.video.wltvhelper/?play/rai/Rai Yoyo
+#EXTINF:-1 tvg-chno=44 tvg-id="frisbee" tvg-name="Frisbee"  group-title="WLTV",Frisbee
+plugin://plugin.video.wltvhelper/?play/mediaset/Frisbee
+#EXTINF:-1 tvg-chno=46 tvg-id="cartoonito" tvg-name="Cartoonito"  group-title="WLTV",Cartoonito
+plugin://plugin.video.wltvhelper/?play/mediaset/Cartoonito
+#EXTINF:-1 tvg-chno=47 tvg-id="super" tvg-name="Super!"  group-title="Bambini",Super!
+https://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@357018/master.m3u8
+#EXTINF:-1 tvg-chno=48 tvg-id="rainews24" tvg-name="Rai News 24"  group-title="WLTV",Rai News 24
+plugin://plugin.video.wltvhelper/?play/rai/Rai News 24
+#EXTINF:-1 tvg-chno=49 tvg-id="spike" tvg-name="Spike"  group-title="WLTV",Spike
+plugin://plugin.video.wltvhelper/?play/paramount/Spike
+#EXTINF:-1 tvg-chno=50 tvg-id="skytg24" tvg-name="Sky TG24"  group-title="WLTV",Sky TG24
+plugin://plugin.video.wltvhelper/?play/sky/Sky TG24
+#EXTINF:-1 tvg-chno=51 tvg-id="tgcom24" tvg-name="Tgcom24"  group-title="News",Tgcom24
+https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8
+#EXTINF:-1 tvg-chno=52 tvg-id="dmax" tvg-name="DMAX"  group-title="WLTV",DMAX
+plugin://plugin.video.wltvhelper/?play/discovery/DMAX
+#EXTINF:-1 tvg-chno=54 tvg-id="raistoria" tvg-name="Rai Storia"  group-title="WLTV",Rai Storia
+plugin://plugin.video.wltvhelper/?play/rai/Rai Storia
+#EXTINF:-1 tvg-chno=55 tvg-id="mediasetextra" tvg-name="Mediaset Extra"  group-title="WLTV",Mediaset Extra
+plugin://plugin.video.wltvhelper/?play/mediaset/Mediaset Extra
+#EXTINF:-1 tvg-chno=56 tvg-id="hgtv" tvg-name="HGTV"  group-title="WLTV",HGTV
+plugin://plugin.video.wltvhelper/?play/discovery/Home and Garden TV
+#EXTINF:-1 tvg-chno=57 tvg-id="raisport" tvg-name="Rai Sport"  group-title="WLTV",Rai Sport
+plugin://plugin.video.wltvhelper/?play/rai/Rai Sport
+#EXTINF:-1 tvg-chno=57 tvg-id="raisport" tvg-name="Rai Sport+"  group-title="Sport",Rai Sport+
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025
+#EXTINF:-1 tvg-chno=59 tvg-id="motortrend" tvg-name="Motor Trend"  group-title="Sport",Motor Trend
+https://sbshdlu5-lh.akamaihd.net/i/sbshdl_1@810993/master.m3u8
+#EXTINF:-1 tvg-chno=64 tvg-id="supertennis" tvg-name="Super Tennis"  group-title="Sport",Super Tennis
+https://eclexiafitms.streaming.mediaservices.windows.net/74e5df5a-b28d-4439-aa49-d225a35a26cd/9d8f9220-8371-48bd-954d-f69cd7a3ef4e.ism/manifest(format=mpd-time-csf)
+#EXTINF:-1 tvg-chno=64 tvg-id="supertennis" tvg-name="Super Tennis HD"  group-title="Sport",Super Tennis HD
+https://eclexiafitms.streaming.mediaservices.windows.net/74e5df5a-b28d-4439-aa49-d225a35a26cd/9d8f9220-8371-48bd-954d-f69cd7a3ef4e.ism/QualityLevels(1464000)/Manifest(video,format=m3u8-aapl-v3,audiotrack=audio)
+#EXTINF:-1 tvg-chno=66 tvg-id="italia2" tvg-name="Italia 2"  group-title="WLTV",Italia 2
+plugin://plugin.video.wltvhelper/?play/mediaset/Italia 2
+#EXTINF:-1 tvg-chno=67 tvg-id="vh1" tvg-name="VH1"  group-title="WLTV",VH1
+plugin://plugin.video.wltvhelper/?play/paramount/VH1
+#EXTINF:-1 tvg-chno=69 tvg-id="deejaytv" tvg-name="Deejay TV"  group-title="Radio",Deejay TV
+http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/master.m3u8
+#EXTINF:-1 tvg-chno=70 tvg-id="radioitaliatv" tvg-name="Radio Italia TV"  group-title="Radio",Radio Italia TV
+https://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/master.m3u8
+#EXTINF:-1 tvg-chno=146 tvg-id="raiscuola" tvg-name="Rai Scuola"  group-title="WLTV",Rai Scuola
+plugin://plugin.video.wltvhelper/?play/rai/Rai Scuola
+#EXTINF:-1 tvg-chno=157 tvg-id="radio105tv" tvg-name="Radio 105 TV"  group-title="Radio",Radio 105 TV
+https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ec)/index.m3u8
+#EXTINF:-1 tvg-chno=158 tvg-id="kisskisstv" tvg-name="KissKiss TV"  group-title="Radio",KissKiss TV
+http://wma05.fluidstream.net/KKMulti/livestream_600p/playlist.m3u8
+#EXTINF:-1 tvg-chno=163 tvg-id="gotv" tvg-name="GO-TV"  group-title="Sport",GO-TV
+https://play.cdn.enetres.net/79CE6A0C6AF94F7EB0F93BD0DE2949EF029/02116/playlist.m3u8
+#EXTINF:-1 tvg-chno=167 tvg-id="r101tv" tvg-name="R101 TV"  group-title="Radio",R101 TV 
+https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(er)/index.m3u8
+#EXTINF:-1 tvg-chno=258 tvg-id="radiofreccia" tvg-name="Radio Freccia"  group-title="Radio",Radio Freccia
+https://rtl-video2-stream.thron.com/live-video/video2/ngrp:video2/playlist.m3u8
+#EXTINF:-1 tvg-chno=1000 tvg-id="raisport" tvg-name="Rai Sport piu HD"  group-title="WLTV",Rai Sport piu HD
+plugin://plugin.video.wltvhelper/?play/rai/Rai Sport piu HD
+#EXTINF:-1 tvg-chno=1001 tvg-id="raiplay" tvg-name="RaiPlay"  group-title="WLTV",RaiPlay
+plugin://plugin.video.wltvhelper/?play/rai/RaiPlay
+#EXTINF:-1 tvg-chno=1002 tvg-id="rairadio2" tvg-name="Rai Radio 2"  group-title="WLTV",Rai Radio 2
+plugin://plugin.video.wltvhelper/?play/rai/Rai Radio 2
+#EXTINF:-1 tvg-chno=1003 tvg-id="" tvg-name="RaiNews Abruzzo"  group-title="RaiNewsRegionale",RaiNews Abruzzo 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/abruzzo
+#EXTINF:-1 tvg-chno=1004 tvg-id="" tvg-name="RaiNews Basilicata"  group-title="RaiNewsRegionale",RaiNews Basilicata 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/basilicata
+#EXTINF:-1 tvg-chno=1005 tvg-id="" tvg-name="RaiNews Calabria"  group-title="RaiNewsRegionale",RaiNews Calabria 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/calabria
+#EXTINF:-1 tvg-chno=1006 tvg-id="" tvg-name="RaiNews Campania"  group-title="RaiNewsRegionale",RaiNews Campania 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/campania
+#EXTINF:-1 tvg-chno=1007 tvg-id="" tvg-name="RaiNews Emilia Romagna"  group-title="RaiNewsRegionale",RaiNews Emilia Romagna 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/emiliaromagna
+#EXTINF:-1 tvg-chno=1008 tvg-id="" tvg-name="RaiNews Friuli Venezia Giulia"  group-title="RaiNewsRegionale",RaiNews Friuli Venezia Giulia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/fvg
+#EXTINF:-1 tvg-chno=1009 tvg-id="" tvg-name="RaiNews Furlanija Julijska krajina"  group-title="RaiNewsRegionale",RaiNews Furlanija Julijska krajina 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/fjk
+#EXTINF:-1 tvg-chno=1010 tvg-id="" tvg-name="RaiNews Lazio"  group-title="RaiNewsRegionale",RaiNews Lazio 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/lazio
+#EXTINF:-1 tvg-chno=1011 tvg-id="" tvg-name="RaiNews Liguria"  group-title="RaiNewsRegionale",RaiNews Liguria 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/liguria
+#EXTINF:-1 tvg-chno=1012 tvg-id="" tvg-name="RaiNews Lombardia"  group-title="RaiNewsRegionale",RaiNews Lombardia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/lombardia
+#EXTINF:-1 tvg-chno=1013 tvg-id="" tvg-name="RaiNews Marche"  group-title="RaiNewsRegionale",RaiNews Marche 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/marche
+#EXTINF:-1 tvg-chno=1014 tvg-id="" tvg-name="RaiNews Molise"  group-title="RaiNewsRegionale",RaiNews Molise 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/molise
+#EXTINF:-1 tvg-chno=1015 tvg-id="" tvg-name="RaiNews Piemonte"  group-title="RaiNewsRegionale",RaiNews Piemonte 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/piemonte
+#EXTINF:-1 tvg-chno=1016 tvg-id="" tvg-name="RaiNews Puglia"  group-title="RaiNewsRegionale",RaiNews Puglia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/puglia
+#EXTINF:-1 tvg-chno=1017 tvg-id="" tvg-name="RaiNews Sardegna"  group-title="RaiNewsRegionale",RaiNews Sardegna 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/sardegna
+#EXTINF:-1 tvg-chno=1018 tvg-id="" tvg-name="RaiNews Sicilia"  group-title="RaiNewsRegionale",RaiNews Sicilia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/sicilia
+#EXTINF:-1 tvg-chno=1019 tvg-id="" tvg-name="RaiNews Toscana"  group-title="RaiNewsRegionale",RaiNews Toscana 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/toscana
+#EXTINF:-1 tvg-chno=1020 tvg-id="" tvg-name="RaiNews Trentino Alto Adige - Trento"  group-title="RaiNewsRegionale",RaiNews Trentino Alto Adige - Trento 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/trento
+#EXTINF:-1 tvg-chno=1021 tvg-id="" tvg-name="RaiNews Trentino Alto Adige - Bolzano"  group-title="RaiNewsRegionale",RaiNews Trentino Alto Adige - Bolzano 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/bolzano
+#EXTINF:-1 tvg-chno=1022 tvg-id="" tvg-name="RaiNews Tagesschau"  group-title="RaiNewsRegionale",RaiNews Tagesschau 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/tagesschau
+#EXTINF:-1 tvg-chno=1023 tvg-id="" tvg-name="RaiNews Trail"  group-title="RaiNewsRegionale",RaiNews Trail 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/trail
+#EXTINF:-1 tvg-chno=1024 tvg-id="" tvg-name="RaiNews Umbria"  group-title="RaiNewsRegionale",RaiNews Umbria 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/umbria
+#EXTINF:-1 tvg-chno=1025 tvg-id="" tvg-name="RaiNews Valle d'Aosta"  group-title="RaiNewsRegionale",RaiNews Valle d'Aosta 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/vda
+#EXTINF:-1 tvg-chno=1026 tvg-id="" tvg-name="RaiNews Veneto"  group-title="RaiNewsRegionale",RaiNews Veneto 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/veneto
+#EXTINF:-1 tvg-chno=1027 tvg-id="eurosport1" tvg-name="Eurosport 1"  group-title="WLTV",Eurosport 1
+plugin://plugin.video.wltvhelper/?play/discovery/Eurosport 1
+#EXTINF:-1 tvg-chno=1028 tvg-id="investigationdiscovery" tvg-name="Investigation Discovery"  group-title="WLTV",Investigation Discovery
+plugin://plugin.video.wltvhelper/?play/discovery/Investigation Discovery
+#EXTINF:-1 tvg-chno=1029 tvg-id="discoverychannel" tvg-name="Discovery Channel"  group-title="WLTV",Discovery Channel
+plugin://plugin.video.wltvhelper/?play/discovery/Discovery Channel
+#EXTINF:-1 tvg-chno=1030 tvg-id="mschannel" tvg-name="MsChannel"  group-title="Sport",MsChannel
+plugin://plugin.video.wltvhelper/?play/mediasport/mschannel
+#EXTINF:-1 tvg-chno=1031 tvg-id="mschannelxtra" tvg-name="MsChannel Xtra"  group-title="Sport",MsChannel Xtra
+plugin://plugin.video.wltvhelper/?play/mediasport/extra
+#EXTINF:-1 tvg-chno=1032 tvg-id="msmotortv" tvg-name="MsMotorTV"  group-title="Sport",MsMotorTV
+plugin://plugin.video.wltvhelper/?play/mediasport/msmotor
+#EXTINF:-1 tvg-chno=1033 tvg-id="ms360" tvg-name="Ms360"  group-title="Sport",Ms360
+plugin://plugin.video.wltvhelper/?play/mediasport/ms360
+#EXTINF:-1 tvg-chno=1034 tvg-id="ems" tvg-name="E-MsTV"  group-title="DTT",E-MsTV
+plugin://plugin.video.wltvhelper/?play/mediasport/e-ms
+#EXTINF:-1 tvg-chno=1035 tvg-id="paramountnetwork" tvg-name="Paramount Channel"  group-title="DTT",Paramount Channel
+http://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@195657/index_2500_av-p.m3u8
+#EXTINF:-1 tvg-chno=1036 tvg-id="raiitalia" tvg-name="Rai Italia"  group-title="",Rai Italia
+http://210.210.155.69/s/s63/S4/mnf.m3u8
+#EXTINF:-1 tvg-chno=1037 tvg-id="rsila1" tvg-name="RSI La1"  group-title="DTT",RSI La1
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Italy/fc25d44f4366d7e.m3u8
+#EXTINF:-1 tvg-chno=1038 tvg-id="rsila2" tvg-name="RSI La2"  group-title="DTT",RSI La2
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Italy/9a3f4cc837cb5e9.m3u8
+#EXTINF:-1 tvg-chno=1039 tvg-id="sportitalia" tvg-name="Sport Italia HD Plus"  group-title="Sport",Sport Italia HD Plus
+https://www.mytivu.it/Application/Channels/SI.php
+#EXTINF:-1 tvg-chno=1040 tvg-id="sportitalia24live" tvg-name="Sport Italia 24 LIVE"  group-title="Sport",Sport Italia 24 LIVE
+https://www.mytivu.it/Application/Channels/SILive24.php
+#EXTINF:-1 tvg-chno=1041 tvg-id="sportitaliacalcio" tvg-name="Sport Italia CALCIO"  group-title="Sport",Sport Italia CALCIO
+https://www.mytivu.it/Application/Channels/SISoloCalcio.php
+#EXTINF:-1 tvg-chno=1042 tvg-id="sportitaliamotori" tvg-name="Sport Italia MOTORI"  group-title="Sport",Sport Italia MOTORI
+https://www.mytivu.it/Application/Channels/SIMotori.php
+#EXTINF:-1 tvg-chno=1043 tvg-id="bikesmartmobility" tvg-name="Bike Smart Mobility"  group-title="Sport",Bike Smart Mobility
+https://backup.superstreaming.inaria.me/BikeSmartMobilityDTT/index.m3u8
+#EXTINF:-1 tvg-chno=1044 tvg-id="7gold" tvg-name="7 Gold"  group-title="DTT",7 Gold
+https://stream2.xdevel.com/video0s86-21/stream/playlist_dvr.m3u8
+#EXTINF:-1 tvg-chno=1045 tvg-id="bbcnews" tvg-name="BBC World News"  group-title="News",BBC World News
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-chno=1046 tvg-id="france24" tvg-name="France 24 (EN)"  group-title="",France 24 (EN)
+http://static.france24.com:80/live/F24_EN_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-chno=1047 tvg-id="france24" tvg-name="France 24 (FR)"  group-title="",France 24 (FR)
+http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-chno=1048 tvg-id="euronews" tvg-name="euronews"  group-title="News",Euronews
+https://www.mytivu.it/Application/Channels/Euronews/Euronews.php
+#EXTINF:-1 tvg-chno=1049 tvg-id="bloomberg" tvg-name="Bloomberg"  group-title="DTT",Bloomberg
+https://liveprodeuwest.global.ssl.fastly.net/btv/desktop/eu_live.m3u8
+#EXTINF:-1 tvg-chno=1050 tvg-id="uninettuno" tvg-name="Uninettuno University TV"  group-title="DTT",Uninettuno University TV
+https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
+#EXTINF:-1 tvg-chno=1051 tvg-id="senatotv" tvg-name="Senato TV"  group-title="DTT",Senato TV
+http://senato.spectar.tv:1935/senato-live/ngrp:webtv1_all/chunklist_b1155072_DVR.m3u8
+#EXTINF:-1 tvg-chno=1052 tvg-id="classcnbc" tvg-name="Class CNBC"  group-title="DTT",Class CNBC
+https://859c1818ed614cc5b0047439470927b0.msvdn.net/live/S76890577/tDoFkZD3T1Lw/playlist.m3u8
+#EXTINF:-1 tvg-chno=1053 tvg-id="bfc" tvg-name="BFC"  group-title="DTT",BFC
+https://backup.superstreaming.inaria.me/BFC/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-chno=1055 tvg-id="virgintv" tvg-name="Virgin TV"  group-title="DTT",Virgin TV
+https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ew)/index.m3u8
+#EXTINF:-1 tvg-chno=1056 tvg-id="radio2" tvg-name="Rai Radio2 Live TV"  group-title="",Rai Radio2 Live TV
+https://raievent9-live.akamaized.net/hls/live/619188/raievent9/raievent9/raievent9_2400/chunklist.m3u8
+#EXTINF:-1 tvg-chno=1057 tvg-id="radiomontecarlotv" tvg-name="Radio Montecarlo TV"  group-title="Radio",Radio Montecarlo TV
+https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(bb)/index.m3u8
+#EXTINF:-1 tvg-chno=1058 tvg-id="fmitalia" tvg-name="FM Italia"  group-title="Radio",FM Italia 
+https://flash8.xdevel.com/fmitalia/fmitalia/playlist.m3u8
+#EXTINF:-1 tvg-chno=1059 tvg-id="capitaltv" tvg-name="Capital TV"  group-title="Radio",Capital TV
+http://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/master.m3u8
+#EXTINF:-1 tvg-chno=1060 tvg-id="m2otv" tvg-name="M2o TV"  group-title="Radio",M2o TV
+http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/master.m3u8
+#EXTINF:-1 tvg-chno=1061 tvg-id="kisskissitaliatv" tvg-name="KissKiss Italia TV"  group-title="Radio",KissKiss Italia TV
+http://wma05.fluidstream.net/KKTV01/livestream/playlist.m3u8
+#EXTINF:-1 tvg-chno=1062 tvg-id="radiopiterpantv" tvg-name="Radio Piterpan TV"  group-title="Radio",Radio Piterpan TV
+https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/chunklist_w1502503537.m3u8
+#EXTINF:-1 tvg-chno=1063 tvg-id="radionorbatv" tvg-name="Radio Norba TV"  tvg-logo="https://www.medimex.it/wp-content/uploads/2019/05/SISTEMA-RADIONORBA-Nero.png" group-title="Radio",Radio Norba TV
+https://flash7.xdevel.com/norbatv/smil:norbatv.smil/chunklist_w1667854212_b864000_slita.m3u8
+
+#EXTINF:-1 tvg-chno=1065 tvg-id="radioradiotv" tvg-name="Radio Radio TV"  group-title="Radio",Radio Radio TV
+https://player-api.new.livestream.com/accounts/11463451/events/3679884/broadcasts/212853481.secure.m3u8
+#EXTINF:-1 tvg-chno=1066 tvg-id="ibizatv" tvg-name="Ibiza TV"  group-title="Radio",Ibiza TV
+http://wma10.fluidstream.net/RadioIbizaTV/livestream/chunklist_w1622912751.m3u8
+#EXTINF:-1 tvg-chno=1067 tvg-id="ottofm" tvg-name="Otto FM"  group-title="Radio",Otto FM
+http://streaming.bitonlive.net:8080/hls/ottofmtv/index.m3u8
+#EXTINF:-1 tvg-chno=1068 tvg-id="vuemme" tvg-name="Vuemme"  group-title="Radio",Vuemme
+https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
+#EXTINF:-1 tvg-chno=1069 tvg-id="supersix" tvg-name="Super Six"  group-title="DTT",Super Six
+https://5db313b643fd8.streamlock.net:443/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-chno=1070 tvg-id="sportmediaset" tvg-name="Sport Mediaset"  group-title="Sport",Sport Mediaset Temporaneo 1
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(b4)/manifest.mpd
+#EXTINF:-1 tvg-chno=1071 tvg-id="sportmediaset" tvg-name="Sport Mediaset"  group-title="Sport",Sport Mediaset Temporaneo 2
+https://live3.msf.cdn.mediaset.net/Content/hls_h0_cls_vos/live/channel(b4)/index.m3u8
+#EXTINF:-1 tvg-chno=1072 tvg-id="grandefratello" tvg-name="Grande Fratello Regia 1"  group-title="",Grande Fratello Regia 1
+https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b7)/index.m3u8
+#EXTINF:-1 tvg-chno=1073 tvg-id="grandefratello" tvg-name="Grande Fratello Regia 2"  group-title="",Grande Fratello Regia 2
+https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b8)/index.m3u8
+#EXTINF:-1 tvg-chno=1074 tvg-id="grandefratello+1" tvg-name="Grande Fratello Un'ora fa"  group-title="",Grande Fratello Un'ora fa
+https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b9)/index.m3u8

@@ -1,0 +1,54 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-chno=1000 tvg-id="Action Movies" tvg-name="Action Movies"  tvg-logo="https://i.imgur.com/uMcwx2p.jpg" group-title="SamsungTV",Action Movies
+https://rakuten-actionmovies-6-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1001 tvg-id="Amuse Animation" tvg-name="Amuse Animation"  tvg-logo="https://i.imgur.com/H7GtB0T.jpg" group-title="SamsungTV",Amuse Animation
+https://amuse-amuseanimation-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1002 tvg-id="Big Name" tvg-name="Big Name"  tvg-logo="https://i.imgur.com/hChduSn.png" group-title="SamsungTV",Big Name
+https://alchimie-big-names-3-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1003 tvg-id="Bloomberg" tvg-name="Bloomberg"  tvg-logo="https://i.imgur.com/AMGo8sU.png" group-title="SamsungTV",Bloomberg
+https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1004 tvg-id="Brindia Mo" tvg-name="Brindia Mo"  tvg-logo="https://i.imgur.com/iSNhxeD.png" group-title="SamsungTV",Brindia Mo
+https://okproductions-brindiamochannel-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1005 tvg-id="CG Entertainment" tvg-name="CG Entertainment"  tvg-logo="https://i.imgur.com/HB0LSjW.jpg" group-title="SamsungTV",CG Entertainment
+https://cgentertainment-cgtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1006 tvg-id="Classical Harmony" tvg-name="Classical Harmony"  tvg-logo="https://i.imgur.com/JQaZblm.jpg" group-title="SamsungTV",Classical Harmony
+https://alchimie-classical-harmony-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1007 tvg-id="Comedy Movies" tvg-name="Comedy Movies"  tvg-logo="https://i.imgur.com/o1qKoje.jpg" group-title="SamsungTV",Comedy Movies
+https://rakuten-comedymovies-6-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1008 tvg-id="Euronews" tvg-name="Euronews"  tvg-logo="https://i.imgur.com/K6bo1R3.jpg" group-title="SamsungTV",Euronews
+https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1009 tvg-id="History Lab" tvg-name="History Lab"  tvg-logo="https://i.imgur.com/9D754nx.png" group-title="SamsungTV",History Lab
+http://wma10.fluidstream.net/HistoryLab/livestream/playlist.m3u8
+#EXTINF:-1 tvg-chno=1010 tvg-id="Humanity" tvg-name="Humanity"  tvg-logo="https://i.imgur.com/DFjN26b.jpg" group-title="SamsungTV",Humanity
+https://alchimie-humanity-3-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1011 tvg-id="Minerva Bizzarro Movies" tvg-name="Minerva Bizzarro Movies"  tvg-logo="https://i.imgur.com/GQG22im.jpg" group-title="SamsungTV",Minerva Bizzarro Movies
+https://minerva-bizzarromovies-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1012 tvg-id="Minerva Cinema Segreto" tvg-name="Minerva Cinema Segreto"  tvg-logo="https://i.imgur.com/fuvc0QF.jpg" group-title="SamsungTV",Minerva Cinema Segreto
+https://minerva-cinemasegreto-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1013 tvg-id="MMA TV" tvg-name="MMA TV"  tvg-logo="https://i.imgur.com/MYoNHMg.png" group-title="SamsungTV",MMA TV
+https://alchimie-mmatv-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1014 tvg-id="Mondo Kids" tvg-name="Mondo Kids"  tvg-logo="https://i.imgur.com/AeHlXnK.jpg" group-title="SamsungTV",Mondo Kids
+https://mondotv-mondotvkids-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1015 tvg-id="Moods" tvg-name="Moods"  tvg-logo="https://i.imgur.com/zSdsBGc.jpg" group-title="SamsungTV",Moods
+https://alchimie-moods-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1016 tvg-id="Motor TV" tvg-name="Motor TV"  tvg-logo="https://i.imgur.com/muS5HF5.jpg" group-title="SamsungTV",Motor TV
+https://motorsportnetwork-motor1tv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1017 tvg-id="My Surf TV" tvg-name="My Surf TV"  tvg-logo="https://i.imgur.com/byD2nrE.png" group-title="SamsungTV",My Surf TV
+https://alchimie-mysurf-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1018 tvg-id="People are Awesome" tvg-name="People are Awesome"  tvg-logo="https://i.imgur.com/msHBlDz.png" group-title="SamsungTV",People are Awesome
+https://jukin-peopleareawesome-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1019 tvg-id="RDS Social TV" tvg-name="RDS Social TV"  tvg-logo="https://i.imgur.com/LDcsCZC.png" group-title="SamsungTV",RDS Social TV
+https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index_7.m3u8
+#EXTINF:-1 tvg-chno=1020 tvg-id="Spotlight" tvg-name="Spotlight"  tvg-logo="https://i.imgur.com/TUDZvHw.jpg" group-title="SamsungTV",Spotlight
+https://rakuten-spotlight-6-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1021 tvg-id="Supertoons TV" tvg-name="Supertoons TV"  tvg-logo="https://i.imgur.com/35BpWJh.jpg" group-title="SamsungTV",Supertoons TV
+https://kedoo-supertoonstv-4-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1022 tvg-id="Teletubbies" tvg-name="Teletubbies"  tvg-logo="https://i.imgur.com/FlCXGip.jpg" group-title="SamsungTV",Teletubbies
+https://dhx-teletubbies-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1023 tvg-id="Top Crimine" tvg-name="Top Crimine"  tvg-logo="https://i.imgur.com/MLCYwWD.png" group-title="SamsungTV",Top Crimine
+https://endemol-top-criminie-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1024 tvg-id="Top Series" tvg-name="Top Series"  tvg-logo="https://i.imgur.com/P4hb5Ws.jpg" group-title="SamsungTV",Top Series
+https://endemol-top-serie-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno=1025 tvg-id="TV Shows" tvg-name="TV Shows"  tvg-logo="https://i.imgur.com/oMXfdkV.png" group-title="SamsungTV",TV Shows
+https://rakuten-tvshows-6-it.samsung.wurl.com/manifest/playlist.m3u8
