@@ -1,4 +1,7 @@
-﻿v.2.0.3.0 Beta 3
+﻿v.2.0.4.0
+-- manage new split placeholder
+-- minor fix
+v.2.0.3.0 Beta 3
 -- avoid duplicated during export
 -- add filter engine exception (avoid video like "wonder woman 1984" to be inserted into 1900 years)
 -- parameterized suffix and prefix to clean the video name
