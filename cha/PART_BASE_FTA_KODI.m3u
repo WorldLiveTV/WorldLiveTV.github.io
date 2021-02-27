@@ -118,6 +118,10 @@ https://play.cdn.enetres.net/79CE6A0C6AF94F7EB0F93BD0DE2949EF029/02116/playlist.
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(er)/index.m3u8
 #EXTINF:-1 tvg-chno=258 tvg-id="radiofreccia" tvg-name="Radio Freccia"  group-title="Radio",Radio Freccia
 https://rtl-video2-stream.thron.com/live-video/video2/ngrp:video2/playlist.m3u8
+#EXTINF:-1 tvg-chno=507 tvg-id="la7" tvg-name="La7 HD"  group-title="DTT",La7 HD
+http://92.246.85.109:8000/play/a00z
+#EXTINF:-1 tvg-chno=529 tvg-id="la7d" tvg-name="La7d HD"  group-title="DTT",La7d HD
+http://92.246.85.109:8000/play/a010
 #EXTINF:-1 tvg-chno=1000 tvg-id="raisport" tvg-name="Rai Sport piu HD"  group-title="WLTV",Rai Sport piu HD
 plugin://plugin.video.wltvhelper/?play/rai/Rai Sport piu HD
 #EXTINF:-1 tvg-chno=1001 tvg-id="raiplay" tvg-name="RaiPlay"  group-title="WLTV",RaiPlay
@@ -188,22 +192,22 @@ plugin://plugin.video.wltvhelper/?play/mediasport/msmotor
 plugin://plugin.video.wltvhelper/?play/mediasport/ms360
 #EXTINF:-1 tvg-chno=1034 tvg-id="ems" tvg-name="E-MsTV"  group-title="DTT",E-MsTV
 plugin://plugin.video.wltvhelper/?play/mediasport/e-ms
-#EXTINF:-1 tvg-chno=1035 tvg-id="paramountnetwork" tvg-name="Paramount Channel"  group-title="DTT",Paramount Channel
+#EXTINF:-1 tvg-chno=1035 tvg-id="sportitalia" tvg-name="Sport Italia HD Plus"  group-title="Sport",Sport Italia HD Plus
+plugin://plugin.video.wltvhelper/?play/sporitalia/sihd
+#EXTINF:-1 tvg-chno=1036 tvg-id="sportitalia24live" tvg-name="Sport Italia 24 LIVE"  group-title="Sport",Sport Italia 24 LIVE
+plugin://plugin.video.wltvhelper/?play/sporitalia/live24
+#EXTINF:-1 tvg-chno=1037 tvg-id="sportitaliacalcio" tvg-name="Sport Italia CALCIO"  group-title="Sport",Sport Italia CALCIO
+plugin://plugin.video.wltvhelper/?play/sporitalia/calcio
+#EXTINF:-1 tvg-chno=1038 tvg-id="sportitaliamotori" tvg-name="Sport Italia MOTORI"  group-title="Sport",Sport Italia MOTORI
+plugin://plugin.video.wltvhelper/?play/sporitalia/motori
+#EXTINF:-1 tvg-chno=1039 tvg-id="paramountnetwork" tvg-name="Paramount Channel"  group-title="DTT",Paramount Channel
 http://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@195657/index_2500_av-p.m3u8
-#EXTINF:-1 tvg-chno=1036 tvg-id="raiitalia" tvg-name="Rai Italia"  group-title="",Rai Italia
+#EXTINF:-1 tvg-chno=1040 tvg-id="raiitalia" tvg-name="Rai Italia"  group-title="",Rai Italia
 http://210.210.155.69/s/s63/S4/mnf.m3u8
-#EXTINF:-1 tvg-chno=1037 tvg-id="rsila1" tvg-name="RSI La1"  group-title="DTT",RSI La1
+#EXTINF:-1 tvg-chno=1041 tvg-id="rsila1" tvg-name="RSI La1"  group-title="DTT",RSI La1
 http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Italy/fc25d44f4366d7e.m3u8
-#EXTINF:-1 tvg-chno=1038 tvg-id="rsila2" tvg-name="RSI La2"  group-title="DTT",RSI La2
+#EXTINF:-1 tvg-chno=1042 tvg-id="rsila2" tvg-name="RSI La2"  group-title="DTT",RSI La2
 http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Italy/9a3f4cc837cb5e9.m3u8
-#EXTINF:-1 tvg-chno=1039 tvg-id="sportitalia" tvg-name="Sport Italia HD Plus"  group-title="Sport",Sport Italia HD Plus
-https://www.mytivu.it/Application/Channels/SI.php
-#EXTINF:-1 tvg-chno=1040 tvg-id="sportitalia24live" tvg-name="Sport Italia 24 LIVE"  group-title="Sport",Sport Italia 24 LIVE
-https://www.mytivu.it/Application/Channels/SILive24.php
-#EXTINF:-1 tvg-chno=1041 tvg-id="sportitaliacalcio" tvg-name="Sport Italia CALCIO"  group-title="Sport",Sport Italia CALCIO
-https://www.mytivu.it/Application/Channels/SISoloCalcio.php
-#EXTINF:-1 tvg-chno=1042 tvg-id="sportitaliamotori" tvg-name="Sport Italia MOTORI"  group-title="Sport",Sport Italia MOTORI
-https://www.mytivu.it/Application/Channels/SIMotori.php
 #EXTINF:-1 tvg-chno=1043 tvg-id="bikesmartmobility" tvg-name="Bike Smart Mobility"  group-title="Sport",Bike Smart Mobility
 https://backup.superstreaming.inaria.me/BikeSmartMobilityDTT/index.m3u8
 #EXTINF:-1 tvg-chno=1044 tvg-id="7gold" tvg-name="7 Gold"  group-title="DTT",7 Gold

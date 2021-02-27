@@ -15,8 +15,6 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(c5)/
 #EXTINF:-1 tvg-chno=6 tvg-id="italia1" tvg-name="Italia 1"  group-title="DTT",Italia 1
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(I1)/index.m3u8
 
-#EXTINF:-1 tvg-chno=7 tvg-id="la7" tvg-name="La7"  group-title="DTT",La7
-https://tivustream.website/urls/la7
 #EXTINF:-1 tvg-chno=7 tvg-id="la7" tvg-name="La7"  group-title="DTT",La7 (solo Kodi)
 plugin://plugin.video.rivedila7/?mode=diretta_la7
 #EXTINF:-1 tvg-chno=8 tvg-id="tv8" tvg-name="Tv8"  group-title="DTT",Tv8
@@ -89,8 +87,7 @@ https://sbshdlu5-lh.akamaihd.net/i/sbshdl_5@825063/master.m3u8
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=24269
 #EXTINF:-1 tvg-chno=55 tvg-id="mediasetextra" tvg-name="Mediaset Extra"  group-title="DTT",Mediaset Extra
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kq)/index.m3u8
-#EXTINF:-1 tvg-chno=56 tvg-id="hgtv" tvg-name="HGTV"  group-title="DTT",HGTV
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_7@106896/master.m3u8
+
 #EXTINF:-1 tvg-chno=57 tvg-id="raisport" tvg-name="Rai Sport+"  group-title="Sport",Rai Sport+
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025
 #EXTINF:-1 tvg-chno=59 tvg-id="motortrend" tvg-name="Motor Trend"  group-title="Sport",Motor Trend
@@ -123,6 +120,10 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(er)/
 https://flash2.xdevel.com/tgnorba_24/tgnorba_24_source.stream/manifest.mpd
 #EXTINF:-1 tvg-chno=258 tvg-id="radiofreccia" tvg-name="Radio Freccia"  group-title="Radio",Radio Freccia
 https://rtl-video2-stream.thron.com/live-video/video2/ngrp:video2/playlist.m3u8
+#EXTINF:-1 tvg-chno=507 tvg-id="la7" tvg-name="La7 HD"  group-title="DTT",La7 HD
+http://92.246.85.109:8000/play/a00z
+#EXTINF:-1 tvg-chno=529 tvg-id="la7d" tvg-name="La7d HD"  group-title="DTT",La7d HD
+http://92.246.85.109:8000/play/a010
 #EXTINF:-1 tvg-chno=1000 tvg-id="paramountnetwork" tvg-name="Paramount Channel"  group-title="DTT",Paramount Channel
 http://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@195657/index_2500_av-p.m3u8
 #EXTINF:-1 tvg-chno=1001 tvg-id="raiitalia" tvg-name="Rai Italia"  group-title="",Rai Italia
