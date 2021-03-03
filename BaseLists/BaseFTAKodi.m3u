@@ -1,0 +1,225 @@
+#EXTM3U
+
+##### RAI #####
+
+#EXTINF:-1 tvg-id="rai1" tvg-name="Rai 1" group-title="",Rai 1
+plugin://plugin.video.wltvhelper/?play/rai/Rai 1
+
+#EXTINF:-1 tvg-id="rai2" tvg-name="Rai 2" group-title="",Rai 2
+plugin://plugin.video.wltvhelper/?play/rai/Rai 2
+
+#EXTINF:-1 tvg-id="rai3" tvg-name="Rai 3" group-title="",Rai 3
+plugin://plugin.video.wltvhelper/?play/rai/Rai 3
+
+#EXTINF:-1 tvg-id="rai4" tvg-name="Rai 4" group-title="",Rai 4
+plugin://plugin.video.wltvhelper/?play/rai/Rai 4
+
+#EXTINF:-1 tvg-id="rai5" tvg-name="Rai 5" group-title="",Rai 5
+plugin://plugin.video.wltvhelper/?play/rai/Rai 5
+
+#EXTINF:-1 tvg-id="raimovie" tvg-name="Rai Movie" group-title="",Rai Movie
+plugin://plugin.video.wltvhelper/?play/rai/Rai Movie
+
+#EXTINF:-1 tvg-id="raipremium" tvg-name="Rai Premium" group-title="",Rai Premium
+plugin://plugin.video.wltvhelper/?play/rai/Rai Premium
+
+#EXTINF:-1 tvg-id="raigulp" tvg-name="Rai Gulp" group-title="",Rai Gulp
+plugin://plugin.video.wltvhelper/?play/rai/Rai Gulp
+
+#EXTINF:-1 tvg-id="raiyoyo" tvg-name="Rai Yoyo" group-title="",Rai Yoyo
+plugin://plugin.video.wltvhelper/?play/rai/Rai Yoyo
+
+#EXTINF:-1 tvg-id="raistoria" tvg-name="Rai Storia" group-title="",Rai Storia
+plugin://plugin.video.wltvhelper/?play/rai/Rai Storia
+
+#EXTINF:-1 tvg-id="raiscuola" tvg-name="Rai Scuola" group-title="",Rai Scuola
+plugin://plugin.video.wltvhelper/?play/rai/Rai Scuola
+
+#EXTINF:-1 tvg-id="rainews24" tvg-name="Rai News 24" group-title="",Rai News 24
+plugin://plugin.video.wltvhelper/?play/rai/Rai News 24
+
+#EXTINF:-1 tvg-id="raisport" tvg-name="Rai Sport piu HD" group-title="",Rai Sport piu HD
+plugin://plugin.video.wltvhelper/?play/rai/Rai Sport piu HD
+
+#EXTINF:-1 tvg-id="raisport" tvg-name="Rai Sport" group-title="",Rai Sport
+plugin://plugin.video.wltvhelper/?play/rai/Rai Sport
+
+#EXTINF:-1 tvg-id="raiplay" tvg-name="RaiPlay" group-title="",RaiPlay
+plugin://plugin.video.wltvhelper/?play/rai/RaiPlay
+
+#EXTINF:-1 tvg-id="rairadio2" tvg-name="Rai Radio 2" group-title="",Rai Radio 2
+plugin://plugin.video.wltvhelper/?play/rai/Rai Radio 2
+
+#EXTINF:-1 tvg-id="canale5" tvg-name="Canale 5" group-title="",Canale 5
+plugin://plugin.video.wltvhelper/?play/mediaset/Canale 5
+
+#EXTINF:-1 tvg-id="italia1" tvg-name="Italia 1" group-title="",Italia 1
+plugin://plugin.video.wltvhelper/?play/mediaset/Italia 1
+
+#EXTINF:-1 tvg-id="rete4" tvg-name="Rete 4" group-title="",Rete 4
+plugin://plugin.video.wltvhelper/?play/mediaset/Rete 4
+
+##### RAI NEWS REGIONALI #####
+
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Abruzzo" group-title="RaiNewsRegionale",RaiNews Abruzzo 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/abruzzo 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Basilicata" group-title="RaiNewsRegionale",RaiNews Basilicata 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/basilicata 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Calabria" group-title="RaiNewsRegionale",RaiNews Calabria 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/calabria 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Campania" group-title="RaiNewsRegionale",RaiNews Campania 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/campania 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Emilia Romagna" group-title="RaiNewsRegionale",RaiNews Emilia Romagna 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/emiliaromagna
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Friuli Venezia Giulia" group-title="RaiNewsRegionale",RaiNews Friuli Venezia Giulia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/fvg 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Furlanija Julijska krajina" group-title="RaiNewsRegionale",RaiNews Furlanija Julijska krajina 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/fjk 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Lazio" group-title="RaiNewsRegionale",RaiNews Lazio 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/lazio 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Liguria" group-title="RaiNewsRegionale",RaiNews Liguria 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/liguria 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Lombardia" group-title="RaiNewsRegionale",RaiNews Lombardia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/lombardia 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Marche" group-title="RaiNewsRegionale",RaiNews Marche 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/marche 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Molise" group-title="RaiNewsRegionale",RaiNews Molise 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/molise 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Piemonte" group-title="RaiNewsRegionale",RaiNews Piemonte 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/piemonte 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Puglia" group-title="RaiNewsRegionale",RaiNews Puglia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/puglia 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Sardegna" group-title="RaiNewsRegionale",RaiNews Sardegna 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/sardegna 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Sicilia" group-title="RaiNewsRegionale",RaiNews Sicilia 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/sicilia 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Toscana" group-title="RaiNewsRegionale",RaiNews Toscana 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/toscana 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Trentino Alto Adige - Trento" group-title="RaiNewsRegionale",RaiNews Trentino Alto Adige - Trento 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/trento 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Trentino Alto Adige - Bolzano" group-title="RaiNewsRegionale",RaiNews Trentino Alto Adige - Bolzano 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/bolzano 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Tagesschau" group-title="RaiNewsRegionale",RaiNews Tagesschau 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/tagesschau 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Trail" group-title="RaiNewsRegionale",RaiNews Trail 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/trail 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Umbria" group-title="RaiNewsRegionale",RaiNews Umbria 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/umbria 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Valle d'Aosta" group-title="RaiNewsRegionale",RaiNews Valle d'Aosta 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/vda 
+#EXTINF:-1 tvg-id="" tvg-name="RaiNews Veneto" group-title="RaiNewsRegionale",RaiNews Veneto 
+plugin://plugin.video.wltvhelper/?play/rainewsrg/veneto 
+
+##### MEDIASET #####
+
+#EXTINF:-1 tvg-id="mediaset20" tvg-name="20 Mediaset" group-title="",20 Mediaset
+plugin://plugin.video.wltvhelper/?play/mediaset/20
+
+#EXTINF:-1 tvg-id="iris" tvg-name="Iris" group-title="",Iris
+plugin://plugin.video.wltvhelper/?play/mediaset/Iris
+
+#EXTINF:-1 tvg-id="la5" tvg-name="La5" group-title="",La5
+plugin://plugin.video.wltvhelper/?play/mediaset/La 5
+
+#EXTINF:-1 tvg-id="cine34" tvg-name="Cine34" group-title="",Cine34
+plugin://plugin.video.wltvhelper/?play/mediaset/Cine34
+
+#EXTINF:-1 tvg-id="mediasetextra" tvg-name="Mediaset Extra" group-title="",Mediaset Extra
+plugin://plugin.video.wltvhelper/?play/mediaset/Mediaset Extra
+
+#EXTINF:-1 tvg-id="focus" tvg-name="Focus" group-title="",Focus
+plugin://plugin.video.wltvhelper/?play/mediaset/Focus
+
+#EXTINF:-1 tvg-id="topcrime" tvg-name="Top Crime" group-title="",Top Crime
+plugin://plugin.video.wltvhelper/?play/mediaset/Top Crime
+
+#EXTINF:-1 tvg-id="italia2" tvg-name="Italia 2" group-title="",Italia 2
+plugin://plugin.video.wltvhelper/?play/mediaset/Italia 2
+
+#EXTINF:-1 tvg-id="boing" tvg-name="Boing" group-title="",Boing
+plugin://plugin.video.wltvhelper/?play/mediaset/Boing
+
+#EXTINF:-1 tvg-id="cartoonito" tvg-name="Cartoonito" group-title="",Cartoonito
+plugin://plugin.video.wltvhelper/?play/mediaset/Cartoonito
+
+#EXTINF:-1 tvg-id="k2" tvg-name="K2" group-title="",K2
+plugin://plugin.video.wltvhelper/?play/mediaset/K2
+
+#EXTINF:-1 tvg-id="frisbee" tvg-name="Frisbee" group-title="",Frisbee
+plugin://plugin.video.wltvhelper/?play/mediaset/Frisbee
+
+##### DISCOVERY #####
+
+#EXTINF:-1 tvg-id="realtime" tvg-name="Real Time" group-title="",Real Time
+plugin://plugin.video.wltvhelper/?play/discovery/Real Time
+
+#EXTINF:-1 tvg-id="nove" tvg-name="Nove" group-title="",Nove
+plugin://plugin.video.wltvhelper/?play/discovery/NOVE
+
+#EXTINF:-1 tvg-id="dmax" tvg-name="DMAX" group-title="",DMAX
+plugin://plugin.video.wltvhelper/?play/discovery/DMAX
+
+#EXTINF:-1 tvg-id="hgtv" tvg-name="HGTV" group-title="",HGTV
+plugin://plugin.video.wltvhelper/?play/discovery/Home and Garden TV
+
+#EXTINF:-1 tvg-id="eurosport1" tvg-name="Eurosport 1" group-title="",Eurosport 1
+plugin://plugin.video.wltvhelper/?play/discovery/Eurosport 1
+
+#EXTINF:-1 tvg-id="investigationdiscovery" tvg-name="Investigation Discovery" group-title="",Investigation Discovery
+plugin://plugin.video.wltvhelper/?play/discovery/Investigation Discovery
+
+#EXTINF:-1 tvg-id="discoverychannel" tvg-name="Discovery Channel" group-title="",Discovery Channel
+plugin://plugin.video.wltvhelper/?play/discovery/Discovery Channel
+
+##### LA7 #####
+
+#EXTINF:-1 tvg-id="la7" tvg-name="La7" group-title="",La7
+plugin://plugin.video.wltvhelper/?play/la7/La7
+#EXTINF:-1 tvg-id="la7d" tvg-name="La7d" group-title="",La7d
+plugin://plugin.video.wltvhelper/?play/la7/La7d
+
+##### PARAMOUNT #####
+
+#EXTINF:-1 tvg-id="paramountnetwork" tvg-name="Paramount Network" group-title="",Paramount Network
+plugin://plugin.video.wltvhelper/?play/paramount/Paramount
+
+#EXTINF:-1 tvg-id="spike" tvg-name="Spike" group-title="",Spike
+plugin://plugin.video.wltvhelper/?play/paramount/Spike
+
+#EXTINF:-1 tvg-id="vh1" tvg-name="VH1" group-title="",VH1
+plugin://plugin.video.wltvhelper/?play/paramount/VH1
+
+##### SKY #####
+
+#EXTINF:-1 tvg-id="tv8" tvg-name="Tv8" group-title="",Tv8
+plugin://plugin.video.wltvhelper/?play/sky/TV8
+
+#EXTINF:-1 tvg-id="cielo" tvg-name="Cielo" group-title="",Cielo
+plugin://plugin.video.wltvhelper/?play/sky/Cielo
+
+#EXTINF:-1 tvg-id="skytg24" tvg-name="Sky TG24" group-title="",Sky TG24
+plugin://plugin.video.wltvhelper/?play/sky/Sky TG24
+
+##### MEDIASPORT #####
+
+#EXTINF:-1 tvg-id="mschannel" tvg-name="MsChannel" group-title="Sport",MsChannel
+plugin://plugin.video.wltvhelper/?play/mediasport/mschannel
+#EXTINF:-1 tvg-id="mschannelxtra" tvg-name="MsChannel Xtra" group-title="Sport",MsChannel Xtra
+plugin://plugin.video.wltvhelper/?play/mediasport/extra
+#EXTINF:-1 tvg-id="msmotortv" tvg-name="MsMotorTV" group-title="Sport",MsMotorTV
+plugin://plugin.video.wltvhelper/?play/mediasport/msmotor
+#EXTINF:-1 tvg-id="ms360" tvg-name="Ms360" group-title="Sport",Ms360
+plugin://plugin.video.wltvhelper/?play/mediasport/ms360
+#EXTINF:-1 tvg-id="ems" tvg-name="E-MsTV" group-title="DTT",E-MsTV
+plugin://plugin.video.wltvhelper/?play/mediasport/e-ms
+
+##### SportItalia #####
+
+#EXTINF:-1 tvg-id="sportitalia" tvg-name="Sport Italia HD Plus" tvg-logo="" group-title="",Sport Italia HD Plus
+plugin://plugin.video.wltvhelper/?play/sporitalia/sihd
+#EXTINF:-1 tvg-id="sportitalia24live" tvg-name="Sport Italia 24 LIVE" tvg-logo="" group-title="",Sport Italia 24 LIVE
+plugin://plugin.video.wltvhelper/?play/sporitalia/live24
+#EXTINF:-1 tvg-id="sportitaliacalcio" tvg-name="Sport Italia CALCIO" tvg-logo="" group-title="",Sport Italia CALCIO
+plugin://plugin.video.wltvhelper/?play/sporitalia/calcio
+#EXTINF:-1 tvg-id="sportitaliamotori" tvg-name="Sport Italia MOTORI" tvg-logo="" group-title="",Sport Italia MOTORI
+plugin://plugin.video.wltvhelper/?play/sporitalia/motori

@@ -1,0 +1,102 @@
+#EXTM3U
+
+############ TEST ############
+#EXTINF:-1 tvg-chno=3020 tvg-id="Canale 5" tvg-name="Canale 5" group-title="Flusso MPD",Canale 5
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(c5)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Italia 1" tvg-name="Italia 1" group-title="Flusso MPD",Italia 1
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(i1)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Rete 4" tvg-name="Rete 4" group-title="Flusso MPD",Rete 4
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(r4)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Grande Fratello" tvg-name="Grande Fratello" group-title="Flusso MPD",Grande Fratello
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(b7)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="20 Mediaset" tvg-name="20 Mediaset" group-title="Flusso MPD",20 Mediaset
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(lb)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="La5" tvg-name="La5" group-title="Flusso MPD",La5
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(ka)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Italia 2" tvg-name="Italia 2" group-title="Flusso MPD",Italia 2
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(i2)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Cine34" tvg-name="Cine34" group-title="Flusso MPD",Cine34
+https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b6)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Mediaset Extra" tvg-name="Mediaset Extra" group-title="Flusso MPD",Mediaset Extra
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(kq)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Focus" tvg-name="Focus" group-title="Flusso MPD",Focus
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(fu)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Top Crime" tvg-name="Top Crime" group-title="Flusso MPD",Top Crime
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(lt)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Iris" tvg-name="Iris" group-title="Flusso MPD",Iris
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(ki)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Boing" tvg-name="Boing" group-title="Flusso MPD",Boing
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(kb)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Cartonito" tvg-name="Cartonito" group-title="Flusso MPD",Cartonito
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(la)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="TGCom24" tvg-name="TGCom24" group-title="Flusso MPD",TGCom24
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(kf)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Radio 105 TV" tvg-name="Radio 105 TV" group-title="Flusso MPD",Radio 105 TV
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(ec)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="R101 TV" tvg-name="R101 TV" group-title="Flusso MPD",R101 TV
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(er)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Virgin TV" tvg-name="Virgin TV" group-title="Flusso MPD",Virgin TV
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(ew)/manifest.mpd
+#EXTINF:-1 tvg-chno=3020 tvg-id="Radio Montecarlo TV" tvg-name="Radio Montecarlo TV" group-title="Flusso MPD",Radio Montecarlo TV
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(bb)/manifest.mpd
+##############################
+
+##### VARI #####
+#EXTINF:-1 tvg-id="sportmediaset" tvg-name="Sport Mediaset" tvg-logo="" group-title="",Sport Mediaset
+https://live3.msf.cdn.mediaset.net/Content/dash_d0_clr_vos/live/channel(b4)/manifest.mpd
+
+##### SAMSUNG TV #####
+#EXTINF:-1 tvg-id="Action Movies" tvg-name="Action Movies" group-title="SamsungTV" tvg-logo="https://i.imgur.com/uMcwx2p.jpg",Action Movies
+https://rakuten-actionmovies-6-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Amuse Animation" tvg-name="Amuse Animation" group-title="SamsungTV" tvg-logo="https://i.imgur.com/H7GtB0T.jpg",Amuse Animation
+https://amuse-amuseanimation-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Big Name" tvg-name="Big Name" group-title="SamsungTV" tvg-logo="https://i.imgur.com/hChduSn.png",Big Name
+https://alchimie-big-names-3-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" group-title="SamsungTV" tvg-logo="https://i.imgur.com/AMGo8sU.png",Bloomberg
+https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Brindia Mo" tvg-name="Brindia Mo" group-title="SamsungTV" tvg-logo="https://i.imgur.com/iSNhxeD.png",Brindia Mo
+https://okproductions-brindiamochannel-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="CG Entertainment" tvg-name="CG Entertainment" group-title="SamsungTV" tvg-logo="https://i.imgur.com/HB0LSjW.jpg",CG Entertainment
+https://cgentertainment-cgtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Classical Harmony" tvg-name="Classical Harmony" group-title="SamsungTV" tvg-logo="https://i.imgur.com/JQaZblm.jpg",Classical Harmony
+https://alchimie-classical-harmony-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Comedy Movies" tvg-name="Comedy Movies" group-title="SamsungTV" tvg-logo="https://i.imgur.com/o1qKoje.jpg",Comedy Movies
+https://rakuten-comedymovies-6-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Euronews" tvg-name="Euronews" group-title="SamsungTV" tvg-logo="https://i.imgur.com/K6bo1R3.jpg",Euronews
+https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="History Lab" tvg-name="History Lab" group-title="SamsungTV" tvg-logo="https://i.imgur.com/9D754nx.png",History Lab
+http://wma10.fluidstream.net/HistoryLab/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="Humanity" tvg-name="Humanity" group-title="SamsungTV" tvg-logo="https://i.imgur.com/DFjN26b.jpg",Humanity
+https://alchimie-humanity-3-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Minerva Bizzarro Movies" tvg-name="Minerva Bizzarro Movies" group-title="SamsungTV" tvg-logo="https://i.imgur.com/GQG22im.jpg",Minerva Bizzarro Movies
+https://minerva-bizzarromovies-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Minerva Cinema Segreto" tvg-name="Minerva Cinema Segreto" group-title="SamsungTV" tvg-logo="https://i.imgur.com/fuvc0QF.jpg",Minerva Cinema Segreto
+https://minerva-cinemasegreto-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="MMA TV" tvg-name="MMA TV" group-title="SamsungTV" tvg-logo="https://i.imgur.com/MYoNHMg.png",MMA TV
+https://alchimie-mmatv-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Mondo Kids" tvg-name="Mondo Kids" group-title="SamsungTV" tvg-logo="https://i.imgur.com/AeHlXnK.jpg",Mondo Kids
+https://mondotv-mondotvkids-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Moods" tvg-name="Moods" group-title="SamsungTV" tvg-logo="https://i.imgur.com/zSdsBGc.jpg",Moods
+https://alchimie-moods-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Motor TV" tvg-name="Motor TV" group-title="SamsungTV" tvg-logo="https://i.imgur.com/muS5HF5.jpg",Motor TV
+https://motorsportnetwork-motor1tv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="My Surf TV" tvg-name="My Surf TV" group-title="SamsungTV" tvg-logo="https://i.imgur.com/byD2nrE.png",My Surf TV
+https://alchimie-mysurf-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="People are Awesome" tvg-name="People are Awesome" group-title="SamsungTV" tvg-logo="https://i.imgur.com/msHBlDz.png",People are Awesome
+https://jukin-peopleareawesome-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="RDS Social TV" tvg-name="RDS Social TV" group-title="SamsungTV" tvg-logo="https://i.imgur.com/LDcsCZC.png",RDS Social TV
+https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index_7.m3u8
+#EXTINF:-1 tvg-id="Spotlight" tvg-name="Spotlight" group-title="SamsungTV" tvg-logo="https://i.imgur.com/TUDZvHw.jpg",Spotlight
+https://rakuten-spotlight-6-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Supertoons TV" tvg-name="Supertoons TV" group-title="SamsungTV" tvg-logo="https://i.imgur.com/35BpWJh.jpg",Supertoons TV
+https://kedoo-supertoonstv-4-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Teletubbies" tvg-name="Teletubbies" group-title="SamsungTV" tvg-logo="https://i.imgur.com/FlCXGip.jpg",Teletubbies
+https://dhx-teletubbies-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Top Crimine" tvg-name="Top Crimine" group-title="SamsungTV" tvg-logo="https://i.imgur.com/MLCYwWD.png",Top Crimine
+https://endemol-top-criminie-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Top Series" tvg-name="Top Series" group-title="SamsungTV" tvg-logo="https://i.imgur.com/P4hb5Ws.jpg",Top Series
+https://endemol-top-serie-1-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="TV Shows" tvg-name="TV Shows" group-title="SamsungTV" tvg-logo="https://i.imgur.com/oMXfdkV.png",TV Shows
+https://rakuten-tvshows-6-it.samsung.wurl.com/manifest/playlist.m3u8
+
+#####  #####
