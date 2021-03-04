@@ -16,5 +16,8 @@
 		<forum>https://t.me/kodilivetv</forum>
 		<telegram>https://t.me/kodilivetv</telegram>
 		<website>https://WorldLiveTV.github.io/</website>
+		<assets>
+      <icon>icon.png</icon>
+    </assets>
 	</extension>
 </addon>
