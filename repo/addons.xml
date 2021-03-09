@@ -1,110 +1,113 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-	<addon id="plugin.video.f4mTester" version="3.0.1.1" name="f4mTester" provider-name="Shani">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0" />
-			<import addon="script.video.F4mProxy" version="3.0.1.1" />
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>f4mTester</summary>
-			<description></description>
-			<platform>all</platform>
-		</extension>
-	</addon>
-	<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV">
-		<requires>
-			<import addon="xbmc.python" version="2.5.0" />
-			<import addon="xbmc.addon" version="13.0.0" />
-			<import addon="script.module.requests" version="2.9.1" />
-			<import addon="script.module.simplejson" version="3.3.0" />
-			<import addon="script.module.beautifulsoup4" version="4.3.2" />
-			<import addon="script.module.html5lib" version="0.999.0" />
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video audio</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv</summary>
-			<description lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv
+  <addon id="plugin.video.f4mTester" version="3.0.1.1" name="f4mTester" provider-name="Shani">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+      <import addon="script.video.F4mProxy" version="3.0.1.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>f4mTester</summary>
+      <description></description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV">
+    <requires>
+      <import addon="xbmc.python" version="2.5.0" />
+      <import addon="xbmc.addon" version="13.0.0" />
+      <import addon="script.module.requests" version="2.9.1" />
+      <import addon="script.module.simplejson" version="3.3.0" />
+      <import addon="script.module.beautifulsoup4" version="4.3.2" />
+      <import addon="script.module.html5lib" version="0.999.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv</summary>
+      <description lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv
 Plugin to watch IPTV free worldwide
 
 f4m Proxy part is fork of f4mProxy by Shani
 Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
-			</description>
-			<platform>all</platform>
-		</extension>
-	</addon>
-	<addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.0.0" provider-name="WLTV Group">
-		<requires>
-			<import addon="script.module.requests" />
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="kodi.context.item">
-			<menu id="kodi.core.main">
-				<item library="switch.py">
-					<label>[B]Seleziona Lista[/B]</label>
-					<visible>!String.IsEmpty(ListItem.ChannelName)</visible>
-				</item>
-			</menu>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="en">World Live TV Helper - for free IPTV channel</summary>
-			<assets>
-				<icon>resources/logo.png</icon>
-				<fanart>resources/background.png</fanart>
-				<screenshot>resources/background.png</screenshot>
-				<screenshot>resources/background.png</screenshot>
-				<screenshot>resources/background.png</screenshot>
-			</assets>
-			<news></news>
-			<description lang="it"></description>
-			<disclaimer></disclaimer>
-			<platform>all</platform>
-			<license>GNU GPL v3</license>
-			<forum>https://t.me/kodilivetv</forum>
-			<website>https://WorldLiveTV.github.io/</website>
-			<source></source>
-		</extension>
-	</addon>
-	<addon id="repository.wltv" name="WorldLiveTV Addon Repository" version="1.0.0" provider-name="WLTV">
-		<extension point="xbmc.addon.repository" name="WorldLiveTV Addon Repository">
-			<dir>
-				<info compressed="false">https://WorldLiveTV.github.io/repo/addons.xml</info>
-				<checksum>https://WorldLiveTV.github.io/repo/addons.xml.md5</checksum>
-				<datadir zip="true">https://WorldLiveTV.github.io/repo/</datadir>
-				<hashes>true</hashes>
-			</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>WorldLiveTV Repository</summary>
-			<description>The official repo of WorldLiveTV (ex KodiLiveTV).</description>
-			<disclaimer>WorldLiveTV did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
-			<platform>all</platform>
-			<forum>https://t.me/kodilivetv</forum>
-			<telegram>https://t.me/kodilivetv</telegram>
-			<website>https://WorldLiveTV.github.io/</website>
-		</extension>
-	</addon>
-	<addon id="script.video.F4mProxy" name="F4mProxy" version="3.0.1.2" provider-name="Shani">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0" />
-			<import addon="script.module.requests" />
-		</requires>
-		<extension point="xbmc.python.module" library="lib" />
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-			<provides>executable</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="en">Proxy for f4m</summary>
-			<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
-		</extension>
-	</addon>
+    </description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.0.1" provider-name="WLTV Group">
+    <requires>
+      <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="kodi.context.item">
+      <menu id="kodi.core.main">
+        <item library="switch.py">
+          <label>[B]Seleziona Lista[/B]</label>
+          <visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+        </item>
+      </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <summary lang="en">World Live TV Helper - for free IPTV channel</summary>
+      <assets>
+        <icon>resources/logo.png</icon>
+        <fanart>resources/background.png</fanart>
+        <screenshot>resources/background.png</screenshot>
+        <screenshot>resources/background.png</screenshot>
+        <screenshot>resources/background.png</screenshot>
+      </assets>
+      <news></news>
+      <description lang="it"></description>
+      <disclaimer></disclaimer>
+      <platform>all</platform>
+      <license>GNU GPL v3</license>
+      <forum>https://t.me/kodilivetv</forum>
+      <website>https://WorldLiveTV.github.io/</website>
+      <source></source>
+    </extension>
+  </addon>
+  <addon id="repository.wltv" name="WorldLiveTV Addon Repository" version="1.0.0" provider-name="WLTV-Group">
+    <extension point="xbmc.addon.repository" name="WorldLiveTV Addon Repository">
+      <dir>
+        <info compressed="false">https://WorldLiveTV.github.io/repo/addons.xml</info>
+        <checksum>https://WorldLiveTV.github.io/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://WorldLiveTV.github.io/repo/</datadir>
+        <hashes>true</hashes>
+      </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>WorldLiveTV Repository</summary>
+      <description>The official repo of WorldLiveTV (ex KodiLiveTV).</description>
+      <disclaimer>WorldLiveTV did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+      <platform>all</platform>
+      <forum>https://t.me/kodilivetv</forum>
+      <telegram>https://t.me/kodilivetv</telegram>
+      <website>https://WorldLiveTV.github.io/</website>
+      <assets>
+        <icon>icon.png</icon>
+      </assets>
+    </extension>
+  </addon>
+  <addon id="script.video.F4mProxy" name="F4mProxy" version="3.0.1.2" provider-name="Shani">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+      <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <summary lang="en">Proxy for f4m</summary>
+      <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+    </extension>
+  </addon>
 </addons>
