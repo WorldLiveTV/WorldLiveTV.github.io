@@ -38,7 +38,7 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.0.2" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.0.3" provider-name="WLTV Group">
     <requires>
       <import addon="script.module.requests" />
     </requires>
