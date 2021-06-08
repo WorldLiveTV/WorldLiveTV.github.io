@@ -38,7 +38,7 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.1.12" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.1.13" provider-name="WLTV Group">
     <requires>
       <import addon="script.module.requests" />
       <import addon="script.module.routing" version="0.2.0" />
@@ -50,8 +50,12 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
     <extension point="kodi.context.item">
       <menu id="kodi.core.main">
         <item library="switch.py">
-          <label>[B]Seleziona Lista[/B]</label>
+          <label>30129</label>
           <visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+        </item>
+        <item library="worldtvonpvr.py">
+          <label>30125</label>
+          <visible>String.Contains(ListItem.FolderPath, "switchlist")</visible>
         </item>
       </menu>
     </extension>
@@ -59,11 +63,11 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
       <platform>all</platform>
       <summary lang="en">World Live TV Helper - for free IPTV channel</summary>
       <assets>
-        <icon>resources/logo.png</icon>
-        <fanart>resources/background.png</fanart>
-        <screenshot>resources/screen01.png</screenshot>
-        <screenshot>resources/screen02.png</screenshot>
-        <screenshot>resources/screen03.png</screenshot>
+        <icon>resources/wltv-logo.png</icon>
+        <fanart>resources/wltv-background.png</fanart>
+        <screenshot>resources/screen1.png</screenshot>
+        <screenshot>resources/screen2.png</screenshot>
+        <screenshot>resources/screen3.png</screenshot>
       </assets>
       <news></news>
       <description lang="it"></description>
