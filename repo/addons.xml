@@ -1,44 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.f4mTester" version="3.0.1.1" name="f4mTester" provider-name="Shani">
-    <requires>
-      <import addon="xbmc.python" version="2.1.0" />
-      <import addon="script.video.F4mProxy" version="3.0.1.1" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary>f4mTester</summary>
-      <description></description>
-      <platform>all</platform>
-    </extension>
-  </addon>
-  <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV">
-    <requires>
-      <import addon="xbmc.python" version="2.5.0" />
-      <import addon="xbmc.addon" version="13.0.0" />
-      <import addon="script.module.requests" version="2.9.1" />
-      <import addon="script.module.simplejson" version="3.3.0" />
-      <import addon="script.module.beautifulsoup4" version="4.3.2" />
-      <import addon="script.module.html5lib" version="0.999.0" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv</summary>
-      <description lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv
-Plugin to watch IPTV free worldwide
-
-f4m Proxy part is fork of f4mProxy by Shani
-Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
-Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
-    </description>
-      <platform>all</platform>
-    </extension>
-  </addon>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.1.14" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.1.15" provider-name="WLTV Group">
     <requires>
       <import addon="script.module.requests" />
       <import addon="script.module.routing" version="0.2.0" />
@@ -77,6 +39,44 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
       <forum>https://t.me/worldlivetv</forum>
       <website>https://WorldLiveTV.github.io/</website>
       <source></source>
+    </extension>
+  </addon>
+  <addon id="plugin.video.f4mTester" version="3.0.1.1" name="f4mTester" provider-name="Shani">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+      <import addon="script.video.F4mProxy" version="3.0.1.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>f4mTester</summary>
+      <description></description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV">
+    <requires>
+      <import addon="xbmc.python" version="2.5.0" />
+      <import addon="xbmc.addon" version="13.0.0" />
+      <import addon="script.module.requests" version="2.9.1" />
+      <import addon="script.module.simplejson" version="3.3.0" />
+      <import addon="script.module.beautifulsoup4" version="4.3.2" />
+      <import addon="script.module.html5lib" version="0.999.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv</summary>
+      <description lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv
+Plugin to watch IPTV free worldwide
+
+f4m Proxy part is fork of f4mProxy by Shani
+Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
+Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
+    </description>
+      <platform>all</platform>
     </extension>
   </addon>
   <addon id="repository.wltv" name="WorldLiveTV Addon Repository" version="1.0.0" provider-name="WLTV-Group">
