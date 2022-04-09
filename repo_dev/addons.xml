@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.1.16" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.0" provider-name="WLTV Group">
     <requires>
+      <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" />
       <import addon="script.module.routing" version="0.2.0" />
+      <import addon="script.module.xmltodict" />
       <import addon="script.module.inputstreamhelper" version="0.5.2" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -25,13 +27,22 @@
       <platform>all</platform>
       <summary lang="en">World Live TV Helper - for free IPTV channel</summary>
       <assets>
-        <icon>resources/wltv-logo.png</icon>
-        <fanart>resources/wltv-background.png</fanart>
-        <screenshot>resources/screen1.png</screenshot>
-        <screenshot>resources/screen2.png</screenshot>
-        <screenshot>resources/screen3.png</screenshot>
+        <icon>resources/images/wltv-logo.png</icon>
+        <fanart>resources/images/wltv-background.png</fanart>
+        <screenshot>resources/images/screen1.png</screenshot>
+        <screenshot>resources/images/screen2.png</screenshot>
+        <screenshot>resources/images/screen3.png</screenshot>
       </assets>
-      <news></news>
+      <news>
+			v 1.2.0
+			- Code refactoring and cleanup
+			- Add User List Maker and management
+			- Add Playlist VOD Manager
+			- Add Search in each UserList
+			- Add Global Search throw all UserList
+			- Add sent to PVR only Live of User PlayList
+			- Various fixes
+		</news>
       <description lang="it"></description>
       <disclaimer></disclaimer>
       <platform>all</platform>
