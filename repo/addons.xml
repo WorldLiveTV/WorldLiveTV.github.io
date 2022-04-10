@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.0" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.1" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" />
@@ -42,6 +42,10 @@
 			- Add Global Search throw all UserList
 			- Add sent to PVR only Live of User PlayList
 			- Various fixes
+			v 1.2.1
+			- Fix Mediaset
+			- New broadcasters
+			- Various minor fix
 		</news>
       <description lang="it"></description>
       <disclaimer></disclaimer>
