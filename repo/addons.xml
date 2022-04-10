@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.1.16" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.0" provider-name="WLTV Group">
     <requires>
+      <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" />
       <import addon="script.module.routing" version="0.2.0" />
+      <import addon="script.module.xmltodict" />
       <import addon="script.module.inputstreamhelper" version="0.5.2" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -25,13 +27,22 @@
       <platform>all</platform>
       <summary lang="en">World Live TV Helper - for free IPTV channel</summary>
       <assets>
-        <icon>resources/wltv-logo.png</icon>
-        <fanart>resources/wltv-background.png</fanart>
-        <screenshot>resources/screen1.png</screenshot>
-        <screenshot>resources/screen2.png</screenshot>
-        <screenshot>resources/screen3.png</screenshot>
+        <icon>resources/images/wltv-logo.png</icon>
+        <fanart>resources/images/wltv-background.png</fanart>
+        <screenshot>resources/images/screen1.png</screenshot>
+        <screenshot>resources/images/screen2.png</screenshot>
+        <screenshot>resources/images/screen3.png</screenshot>
       </assets>
-      <news></news>
+      <news>
+			v 1.2.0
+			- Code refactoring and cleanup
+			- Add User List Maker and management
+			- Add Playlist VOD Manager
+			- Add Search in each UserList
+			- Add Global Search throw all UserList
+			- Add sent to PVR only Live of User PlayList
+			- Various fixes
+		</news>
       <description lang="it"></description>
       <disclaimer></disclaimer>
       <platform>all</platform>
@@ -41,45 +52,7 @@
       <source></source>
     </extension>
   </addon>
-  <addon id="plugin.video.f4mTester" version="3.0.1.1" name="f4mTester" provider-name="Shani">
-    <requires>
-      <import addon="xbmc.python" version="2.1.0" />
-      <import addon="script.video.F4mProxy" version="3.0.1.1" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary>f4mTester</summary>
-      <description></description>
-      <platform>all</platform>
-    </extension>
-  </addon>
-  <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.6.3" provider-name="KLTV">
-    <requires>
-      <import addon="xbmc.python" version="2.5.0" />
-      <import addon="xbmc.addon" version="13.0.0" />
-      <import addon="script.module.requests" version="2.9.1" />
-      <import addon="script.module.simplejson" version="3.3.0" />
-      <import addon="script.module.beautifulsoup4" version="4.3.2" />
-      <import addon="script.module.html5lib" version="0.999.0" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv</summary>
-      <description lang="en">Kodi Live TV - downloaded for free from: http://t.me/kodilivetv
-Plugin to watch IPTV free worldwide
-
-f4m Proxy part is fork of f4mProxy by Shani
-Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
-Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
-    </description>
-      <platform>all</platform>
-    </extension>
-  </addon>
-  <addon id="repository.wltv" name="WorldLiveTV Addon Repository" version="1.0.0" provider-name="WLTV-Group">
+  <addon id="repository.wltv" name="WorldLiveTV Addon Repository" version="1.0.0" provider-name="WLTV">
     <extension point="xbmc.addon.repository" name="WorldLiveTV Addon Repository">
       <dir>
         <info compressed="false">https://WorldLiveTV.github.io/repo/addons.xml</info>
@@ -99,21 +72,6 @@ Mediaset script for live Mediaset channel by kodi-bino (Mediaset Play)
       <assets>
         <icon>icon.png</icon>
       </assets>
-    </extension>
-  </addon>
-  <addon id="script.video.F4mProxy" name="F4mProxy" version="3.0.1.2" provider-name="Shani">
-    <requires>
-      <import addon="xbmc.python" version="2.1.0" />
-      <import addon="script.module.requests" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-      <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <platform>all</platform>
-      <summary lang="en">Proxy for f4m</summary>
-      <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
     </extension>
   </addon>
 </addons>
