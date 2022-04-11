@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.1" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.2" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" />
@@ -46,6 +46,8 @@
 			- Fix Mediaset
 			- New broadcasters
 			- Various minor fix
+			v 1.2.2
+			- Minor code cleanup and fix
 		</news>
       <description lang="it"></description>
       <disclaimer></disclaimer>
