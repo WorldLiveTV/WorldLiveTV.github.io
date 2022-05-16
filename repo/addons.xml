@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.3" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.4" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" />
+      <import addon="script.module.requests" version="2.12.4" />
       <import addon="script.module.routing" version="0.2.0" />
-      <import addon="script.module.xmltodict" />
       <import addon="script.module.inputstreamhelper" version="0.5.2" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -34,6 +33,18 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+			v 1.2.4
+			- fix xbox issue
+			- fix xmltodict dependency on certain devices
+			- rakutentv
+			- international radios
+			- fix m3u corrupted list parse
+			- fix world tv continent icons
+			- fix encoding on vod management
+			- minor refactoring
+			- fix get static files
+			v 1.2.1-1.2.3
+			- various fixes
 			v 1.2.0
 			- Code refactoring and cleanup
 			- Add User List Maker and management
