@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.4" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.5" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
@@ -24,7 +24,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
       <platform>all</platform>
-      <summary lang="en">World Live TV Helper - for free IPTV channel</summary>
+      <summary lang="en">World Live TV Helper - for free IPTV channel and radio</summary>
       <assets>
         <icon>resources/images/wltv-logo.png</icon>
         <fanart>resources/images/wltv-background.png</fanart>
@@ -33,6 +33,15 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+			v 1.2.5
+			- increase timeout on checkServerOnLine
+			- new internal emergency list
+			- new message and lists offline management if server offline
+			- new setting isBeta and setting visibility based on that
+			- internal list navigation if is enabled
+			- youtube section sort as on youtube web site
+			- libreelec fix unitedradio icon view
+			- libreelec fix log view
 			v 1.2.4
 			- fix xbox issue
 			- fix xmltodict dependency on certain devices
