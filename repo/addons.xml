@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.5" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.6" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
@@ -33,6 +33,11 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+			v 1.2.6
+			- added playablemediaitem concept
+			- improved playlist manager
+			- fix gzip downloaded list
+			- added new icons
 			v 1.2.5
 			- increase timeout on checkServerOnLine
 			- new internal emergency list
