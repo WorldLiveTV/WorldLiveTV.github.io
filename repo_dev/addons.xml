@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.0" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.7~beta" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" />
+      <import addon="script.module.requests" version="2.12.4" />
       <import addon="script.module.routing" version="0.2.0" />
-      <import addon="script.module.xmltodict" />
       <import addon="script.module.inputstreamhelper" version="0.5.2" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -25,15 +24,46 @@
     </extension>
     <extension point="xbmc.addon.metadata">
       <platform>all</platform>
-      <summary lang="en">World Live TV Helper - for free IPTV channel</summary>
+      <summary lang="en">World Live TV - for free IPTV channel and radio</summary>
       <assets>
-        <icon>resources/images/wltv-logo.png</icon>
+        <icon>resources/images/wltv-logo.gif</icon>
         <fanart>resources/images/wltv-background.png</fanart>
         <screenshot>resources/images/screen1.png</screenshot>
         <screenshot>resources/images/screen2.png</screenshot>
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+			v 1.2.7
+			- fix Youtube Channel
+			- add vimeo events and video broadcaster
+			- add koper broadcaster
+			- new Mediaset routine
+			v 1.2.6
+			- added playablemediaitem concept
+			- improved playlist manager
+			- fix gzip downloaded list
+			- added new icons
+			v 1.2.5
+			- increase timeout on checkServerOnLine
+			- new internal emergency list
+			- new message and lists offline management if server offline
+			- new setting isBeta and setting visibility based on that
+			- internal list navigation if is enabled
+			- youtube section sort as on youtube web site
+			- libreelec fix unitedradio icon view
+			- libreelec fix log view
+			v 1.2.4
+			- fix xbox issue
+			- fix xmltodict dependency on certain devices
+			- rakutentv
+			- international radios
+			- fix m3u corrupted list parse
+			- fix world tv continent icons
+			- fix encoding on vod management
+			- minor refactoring
+			- fix get static files
+			v 1.2.1-1.2.3
+			- various fixes
 			v 1.2.0
 			- Code refactoring and cleanup
 			- Add User List Maker and management
@@ -42,6 +72,16 @@
 			- Add Global Search throw all UserList
 			- Add sent to PVR only Live of User PlayList
 			- Various fixes
+			v 1.2.1
+			- Fix Mediaset
+			- New broadcasters
+			- Various minor fix
+			v 1.2.2
+			- Minor code cleanup and fix
+			v 1.2.3
+			- Minor code cleanup and fix
+			- Pass 2 https
+			- M3UParser improvements
 		</news>
       <description lang="it"></description>
       <disclaimer></disclaimer>
@@ -50,28 +90,6 @@
       <forum>https://t.me/worldlivetv</forum>
       <website>https://WorldLiveTV.github.io/</website>
       <source></source>
-    </extension>
-  </addon>
-  <addon id="repository.wltv.dev" name="WorldLiveTV DEV Repository Addon Repository" version="1.0.0" provider-name="WLTV-Group">
-    <extension point="xbmc.addon.repository" name="WorldLiveTV DEV Repository Addon Repository">
-      <dir>
-        <info compressed="false">https://WorldLiveTV.github.io/repo_dev/addons.xml</info>
-        <checksum>https://WorldLiveTV.github.io/repo_dev/addons.xml.md5</checksum>
-        <datadir zip="true">https://WorldLiveTV.github.io/repo_dev/</datadir>
-        <hashes>true</hashes>
-      </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary>WorldLiveTV DEV Repository Repository</summary>
-      <description>The official repo of WorldLiveTV DEV Repository.</description>
-      <disclaimer>WorldLiveTV DEV Repository did not make all the add-ons in this repository and is not responsible for their content, nor is it responsible for the use that the user makes of the addon itself.</disclaimer>
-      <platform>all</platform>
-      <forum>https://t.me/worldlivetv</forum>
-      <social>https://t.me/worldlivetv</social>
-      <website>https://WorldLiveTV.github.io</website>
-      <assets>
-        <icon>icon.png</icon>
-      </assets>
     </extension>
   </addon>
 </addons>
