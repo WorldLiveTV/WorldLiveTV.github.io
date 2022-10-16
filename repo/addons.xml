@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV Helper" version="1.2.6" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.7" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
@@ -24,15 +24,20 @@
     </extension>
     <extension point="xbmc.addon.metadata">
       <platform>all</platform>
-      <summary lang="en">World Live TV Helper - for free IPTV channel and radio</summary>
+      <summary lang="en">World Live TV - for free IPTV channel and radio</summary>
       <assets>
-        <icon>resources/images/wltv-logo.png</icon>
+        <icon>resources/images/wltv-logo.gif</icon>
         <fanart>resources/images/wltv-background.png</fanart>
         <screenshot>resources/images/screen1.png</screenshot>
         <screenshot>resources/images/screen2.png</screenshot>
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+			v 1.2.7
+			- fix Youtube Channel
+			- add vimeo events and video broadcaster
+			- add koper broadcaster
+			- new Mediaset routine
 			v 1.2.6
 			- added playablemediaitem concept
 			- improved playlist manager
@@ -85,28 +90,6 @@
       <forum>https://t.me/worldlivetv</forum>
       <website>https://WorldLiveTV.github.io/</website>
       <source></source>
-    </extension>
-  </addon>
-  <addon id="repository.wltv" name="WorldLiveTV Addon Repository" version="1.0.0" provider-name="WLTV">
-    <extension point="xbmc.addon.repository" name="WorldLiveTV Addon Repository">
-      <dir>
-        <info compressed="false">https://WorldLiveTV.github.io/repo/addons.xml</info>
-        <checksum>https://WorldLiveTV.github.io/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://WorldLiveTV.github.io/repo/</datadir>
-        <hashes>true</hashes>
-      </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary>WorldLiveTV Repository</summary>
-      <description>The official repo of WorldLiveTV (ex KodiLiveTV).</description>
-      <disclaimer>WorldLiveTV did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
-      <platform>all</platform>
-      <forum>https://t.me/kodilivetv</forum>
-      <telegram>https://t.me/kodilivetv</telegram>
-      <website>https://WorldLiveTV.github.io/</website>
-      <assets>
-        <icon>icon.png</icon>
-      </assets>
     </extension>
   </addon>
 </addons>
