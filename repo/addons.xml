@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.8" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.9" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
@@ -33,6 +33,21 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+			v 1.2.9
+			- Fix Rai TGR
+			- Choose Rai3 Region to show TRG directly from region
+			- Improved Rai
+			- Improved UserList Management
+			v 1.2.8
+			- User List improvement
+			- Subtitle management
+			- Code cleanup
+			- Broadcaster import check
+			- Video url not found management
+			- YT url decode parameter
+			- Implemented hbbtv search on Rai
+			- Reset group selection in userlist
+			- Fix mediasport
 			v 1.2.7
 			- fix Youtube Channel
 			- add vimeo events and video broadcaster
