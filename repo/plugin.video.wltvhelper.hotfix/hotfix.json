@@ -1,1 +1,1 @@
-[{"name":"WLTV","type":"hotfix","destination":"1.2.7","version":"1.2.7","filename":"hotfix-1.2.7.zip","hotfix":1272,"description":"WarnerTV, Some Mediaset Channel Fix"}]
+[{"name":"WLTV","type":"hotfix","destination":"1.2.9","version":"1.2.9","filename":"hotfix-1.2.9.zip","hotfix":1291,"description":"Improved server offline switch, Import user lists from url (skip same name list), Fix Kodi 20 skin issue in list management, Fix SportItalia, Translations"}]
