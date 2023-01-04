@@ -1,1 +1,1 @@
-[{"name":"WLTV","type":"hotfix","destination":"1.2.9","version":"1.2.9","filename":"hotfix-1.2.9.zip","hotfix":1291,"description":"Improved server offline switch, Import user lists from url (skip same name list), Fix Kodi 20 skin issue in list management, Fix SportItalia, Translations"}]
+[{"name":"WLTV","type":"hotfix","destination":"1.2.9","version":"1.2.9","filename":"hotfix-1.2.9.zip","hotfix":1292,"description":"Improved Import lists (from file), Minor code refactoring, Fix bug on Vod search"}]
