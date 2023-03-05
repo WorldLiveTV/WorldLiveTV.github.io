@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.7~beta2" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.10~beta2" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
@@ -33,6 +33,47 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+			v 1.2.10
+			- Minor fix
+			- Fix 4 xbox pvr
+			- Added rlaxxtv broadcaster
+			- check Addon installation
+			hotfix v 1296
+			- Another fix for kodi 19 and kodi 20 PVR
+			hotfix v 1295
+			- Mod to try set list and restart PVR Simple Client
+			hotfix v 1294
+			- Fix PVR change/set list issue
+			- Multi link in player
+			- Reverted Years order in list manager
+			- Improved RAI TGR Choice on settings
+			hotfix v 1293
+			- fix mediaset GF
+			hotfix v 1292
+			- Improved Import lists
+			- Minor code refactoring
+			- Fix bug on Vod search
+			hotfix v 1291
+			- Translations
+			- Improved server offline switch
+			- Import user lists from url (skip same name list)
+			- Fix Kodi 20 skin issue in list management
+			- Fix SportItalia
+			v 1.2.9
+			- Fix Rai TGR
+			- Choose Rai3 Region to show TRG directly from region
+			- Improved Rai
+			- Improved UserList Management
+			v 1.2.8
+			- User List improvement
+			- Subtitle management
+			- Code cleanup
+			- Broadcaster import check
+			- Video url not found management
+			- YT url decode parameter
+			- Implemented hbbtv search on Rai
+			- Reset group selection in userlist
+			- Fix mediasport
 			v 1.2.7
 			- fix Youtube Channel
 			- add vimeo events and video broadcaster
