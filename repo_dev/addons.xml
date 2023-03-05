@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.10~beta2" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.10~beta3" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
