@@ -1,11 +1,1 @@
-[
-  {
-    "name": "WLTV",
-    "type": "hotfix",
-    "destination": "1.2.10",
-    "version": "1.2.10",
-    "filename": "hotfix-1.2.10.zip",
-    "hotfix": 12102,
-    "description": "fix ssh101"
-  }
-]
+[{"name":"WLTV","type":"hotfix","destination":"1.2.10","version":"1.2.10","filename":"hotfix-1.2.10.zip","hotfix":12103,"description":"fix rai audio buzz (needs IA 20.3.7)"}]
