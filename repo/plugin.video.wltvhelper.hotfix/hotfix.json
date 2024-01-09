@@ -1,1 +1,1 @@
-[{"name":"WLTV","type":"hotfix","destination":"1.2.10","version":"1.2.10","filename":"hotfix-1.2.10.zip","hotfix":12114,"description":"fix saiuz, add wedotv"}]
+[{"name":"WLTV","type":"hotfix","destination":"1.2.10","version":"1.2.10","filename":"hotfix-1.2.10.zip","hotfix":12115,"description":"fix MondoCalcio, fix EPG download, fix Mediaset, fix Youtube live, improvement on Rai, improve check url or path existing, added timeoutpath"}]
