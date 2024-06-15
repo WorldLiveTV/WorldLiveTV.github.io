@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.11" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.12" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
@@ -24,7 +24,12 @@
     </extension>
     <extension point="xbmc.addon.metadata">
       <platform>all</platform>
-      <summary lang="en">World Live TV - for free IPTV channel and radio</summary>
+      <summary lang="it_IT">I canali e radio gratuiti del DTT e del Web</summary>
+      <description lang="it_IT">I canali radio e tv in diretta del DTT e del Web compresi i regionali a portata di mano nella sezione TV di Kodi, la guida TV degli ultimi 7 giorni per i principali canali TV, molti canali internazionali allinterno dell'addon e, molto altro...
+    </description>
+      <summary lang="en_GB">The broadcasts of Rai channels and its interactive services</summary>
+      <description lang="en_GB">Live radio and TV channels from DTT and the Web including regional ones at your fingertips in the Kodi TV section, the last 7 days TV guide for the main TV channels, many international channels within the addon and, much more...
+    </description>
       <assets>
         <icon>resources/images/wltv-logo.gif</icon>
         <fanart>resources/images/wltv-background.png</fanart>
@@ -33,147 +38,20 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
-      v 1.2.11
-      - fix EPG Update
-      - fix bozz broadcaster
-      - fix on checkUrlExists
-      - fix supertennis
-      - fix cilentano
-      - added zerounocast
-      - fix wimtv helper
-      - improved generics broadcaster
-      - fix check url availability
-      - fix Youtube live
-      - fix MondoCalcio
-      - fix EPG download
-      - fix Mediaset
-      - fix Youtube live
-      - improvement on Rai
-      - improve check url or path existing
-      - added timeoutpath
-      - add wedotv
-      - fix saiuz
-      - fix saiuz
-      - fix discovery
-      - fix supertennis
-      - saiuz upgrade
-      - paramount cleanup
-      - fix acisport
-      - fix saiuz
-      - fix vh1
-      - fix Rai audio buzz
-      - fix MondoCalcio
-      - some Rai where not in full hd if available
-      - fix youtube broadcaster
-      - youtube broadcaster refactoring
-      - added manifest_headers IA management
-      - minor code refactoring and cleanup
-      - update USER_AGENT
-      - added def getBroadcaster function
-      - discovery broadcaster refactoring
-      - added telelombardia broadcaster
-      - fix some rai channels
-      - rai in hd
-      - rai delay in settings
-      - fix rai buzz
-      - fix sh101
-      - fix some channel youtube
-      - fix saiuz
-      - fix xdevel
-      - fix mediasport
-      - fix cilentano telesardegna canale58
-      v 1.2.10
-      - Minor fix
-      - Added rlaxxtv broadcaster
-      - check Addon installation
-      - Fix xbox pvr settings
-      - Fix pvr settings with version lower than 20.8.0
-      - Fix Saiuz broadcaster
-      - Fix paramount broadcaster
-      - Another fix for kodi 19 and kodi 20 PVR
-      - Mod to try set list and restart PVR Simple Client
-      - Fix PVR change/set list issue
-      - Multi link in player
-      - Reverted Years order in list manager
-      - Improved RAI TGR Choice on settings
-      - fix mediaset GF
-      - Improved Import lists
-      - Minor code refactoring
-      - Fix bug on Vod search
-      - Translations
-      - Improved server offline switch
-      - Import user lists from url (skip same name list)
-      - Fix Kodi 20 skin issue in list management
-      - Fix SportItalia
-      v 1.2.9
-      - Fix Rai TGR
-      - Choose Rai3 Region to show TRG directly from region
-      - Improved Rai
-      - Improved UserList Management
-      v 1.2.8
-      - User List improvement
-      - Subtitle management
-      - Code cleanup
-      - Broadcaster import check
-      - Video url not found management
-      - YT url decode parameter
-      - Implemented hbbtv search on Rai
-      - Reset group selection in userlist
-      - Fix mediasport
-      v 1.2.7
-      - fix Youtube Channel
-      - add vimeo events and video broadcaster
-      - add koper broadcaster
-      - new Mediaset routine
-      v 1.2.6
-      - added playablemediaitem concept
-      - improved playlist manager
-      - fix gzip downloaded list
-      - added new icons
-      v 1.2.5
-      - increase timeout on checkServerOnLine
-      - new internal emergency list
-      - new message and lists offline management if server offline
-      - new setting isBeta and setting visibility based on that
-      - internal list navigation if is enabled
-      - youtube section sort as on youtube web site
-      - libreelec fix unitedradio icon view
-      - libreelec fix log view
-      v 1.2.4
-      - fix xbox issue
-      - fix xmltodict dependency on certain devices
-      - rakutentv
-      - international radios
-      - fix m3u corrupted list parse
-      - fix world tv continent icons
-      - fix encoding on vod management
-      - minor refactoring
-      - fix get static files
-      v 1.2.1-1.2.3
-      - various fixes
-      v 1.2.0
-      - Code refactoring and cleanup
-      - Add User List Maker and management
-      - Add Playlist VOD Manager
-      - Add Search in each UserList
-      - Add Global Search throw all UserList
-      - Add sent to PVR only Live of User PlayList
-      - Various fixes
-      v 1.2.1
-      - Fix Mediaset
-      - New broadcasters
-      - Various minor fix
-      v 1.2.2
-      - Minor code cleanup and fix
-      v 1.2.3
-      - Minor code cleanup and fix
-      - Pass 2 https
-      - M3UParser improvements
+      v 1.2.12
+      - No AI MediaType
+      - Improved Stream and Manifest Headers management for IA
+      - Improved Rai drm management
+      - Fix discovery
+      - Fix WLTV Instance not found
+      - Force reload epg function
+      - Code refactoring for listswitch
+      - Log on mediaset
+      - Improved check epg file validity
     </news>
-      <description lang="it"></description>
       <disclaimer></disclaimer>
       <platform>all</platform>
-      <license>GNU GPL v3</license>
+      <license>GPL-3.0-or-later</license>
       <forum>https://t.me/worldlivetv</forum>
       <website>https://WorldLiveTV.github.io/</website>
       <source></source>
