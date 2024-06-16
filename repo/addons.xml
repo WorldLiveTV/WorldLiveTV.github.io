@@ -24,10 +24,10 @@
     </extension>
     <extension point="xbmc.addon.metadata">
       <platform>all</platform>
-      <summary lang="it_IT">I canali e radio gratuiti del DTT e del Web</summary>
+      <summary lang="it_IT">Canali TV e radio gratuiti del DTT e del Web</summary>
       <description lang="it_IT">I canali radio e tv in diretta del DTT e del Web compresi i regionali a portata di mano nella sezione TV di Kodi, la guida TV degli ultimi 7 giorni per i principali canali TV, molti canali internazionali allinterno dell'addon e, molto altro...
     </description>
-      <summary lang="en_GB">The broadcasts of Rai channels and its interactive services</summary>
+      <summary lang="en_GB">Free DTT and Web TV and radio channels</summary>
       <description lang="en_GB">Live radio and TV channels from DTT and the Web including regional ones at your fingertips in the Kodi TV section, the last 7 days TV guide for the main TV channels, many international channels within the addon and, much more...
     </description>
       <assets>
@@ -38,6 +38,8 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+      hotfix 121201
+      - fix kodi 20 compatibility
       v 1.2.12
       - No AI MediaType
       - Improved Stream and Manifest Headers management for IA
