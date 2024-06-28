@@ -1,1 +1,1 @@
-[{"name":"WLTV","type":"hotfix","destination":"1.2.12","version":"1.2.12","filename":"hotfix-1.2.12.zip","hotfix":121202,"description":"- improved Inputstream adaptive settings, - fix rai TGR, - improved Rai, - check unsupported kodi version, - code refactoring on la7 and mediaset"}]
+[{"name":"WLTV","type":"hotfix","destination":"1.2.12","version":"1.2.12","filename":"hotfix-1.2.12.zip","hotfix":121203,"description":"fix discovery bug, other code refactoring"}]
