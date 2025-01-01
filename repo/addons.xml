@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.12" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.13" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
+      <!--<import addon="script.module.pyqrcode" version="1.2.1+matrix.1"/>-->
       <import addon="script.module.routing" version="0.2.0" />
       <import addon="script.module.inputstreamhelper" version="0.5.2" />
     </requires>
@@ -38,8 +39,39 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
-      hotfix 121201
+      v 1.2.13
+      - epg lock evidence
+      - improved epg reload
+      - minor code refactoring
+      - some regionals fixes
+      - fix bike channel
+      - fix xbox error on load plugin
+      - fix ftp def
+      - fix for some skyline webcams
+      - fix addMenuItem icons
+      - fix bozz
+      - functions improvement
+      - added restream helper, teletruria, 50canale
+      - fix supertennis
+      - fix server epg KO
+      - unitedmusic disabled
+      - catch error on installWidevine with message
+      - title on Rai TGR
+      - fix BikeChannel
+      - fix Pluto
+      - fix webcam
+      - fix rsi
+      - added check if is in italy functions
+      - fix discovery bug
+      - refactoring header origin and referer
+      - improved Inputstream adaptive settings
+      - fix rai TGR
+      - improved Rai
+      - check unsupported kodi version
+      - code refactoring on la7 and mediaset
       - fix kodi 20 compatibility
+      - force reload epg function
+      - code refactoring for listswitch
       v 1.2.12
       - No AI MediaType
       - Improved Stream and Manifest Headers management for IA
