@@ -1,1 +1,1 @@
-[{"name":"WLTV","type":"hotfix","destination":"1.2.13","version":"1.2.13","filename":"hotfix-1.2.13.zip","hotfix":121305,"description":"fix kodi log uploader, added premio and sciscione broadcaster, sped up rai and discovery zapping"}]
+[{"name":"WLTV","type":"hotfix","destination":"1.2.13","version":"1.2.13","filename":"hotfix-1.2.13.zip","hotfix":121306,"description":"Rai3 play other specific region streams, now you can choose rai mpd or hls (for slow or old device), fix log link, converted settings.xml to new version, unused code cleanup"}]
