@@ -39,6 +39,59 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
+      hotfix 1.2.13.17
+      - fix Teletruria
+      hotfix 1.2.13.16
+      - various fix for new tool adjustment
+      - youtube music search
+      hotfix 1.2.13.15
+      - add castr broadcaster
+      - fix saiuz
+      - add delay discovery on settings
+      hotfix 1.2.13.14
+      - fix siscione regionals channels
+      - fix discovery channels
+      hotfix 1.2.13.13
+      - freezes discovery fix
+      hotfix 1.2.13.12
+      - new epg reload and speedup
+      - another discovery fix
+      hotfix 1.2.13.11
+      - another discovery fix
+      hotfix 1.2.13.10
+      - removed wrong widevine message
+      - partial discovery fix
+      hotfix 1.2.13.09
+      - Fix some regionals
+      - Widevine check
+      - fix sportitalia
+      hotfix 1.2.13.08
+      - Fix some regionals
+      hotfix 1.2.13.07
+      - Fix Reload EPG Label in settings
+      - Fix some regionals
+      hotfix 1.2.13.06
+      - Rai3 play other specific region streams
+      - choose rai mpd or hls
+      - fix log link
+      - converted settings.xml to new version
+      - unused code cleanup
+      hotfix 1.2.13.05
+      - fix kodi log uploader
+      - added premio broadcaster to fix some channels
+      - fix sciscione channels adding relative broadcarter
+      - sped up rai zapping
+      - sped up discovery zapping
+      hotfix 1.2.13.04
+      - Add Abu Dhabi TV
+      - mediaset refactoring, sped up mediaset zapping, added credentials management
+      - samsung broadcaster
+      hotfix 1.2.13.03
+      - fix Rai FHD
+      hotfix 1.2.13.02
+      - fix checkServerOnline bug
+      hotfix 1.2.13.01
+      - log offline server
       v 1.2.13
       - epg lock evidence
       - improved epg reload
@@ -89,6 +142,147 @@
       <forum>https://t.me/worldlivetv</forum>
       <website>https://WorldLiveTV.github.io/</website>
       <source></source>
+    </extension>
+  </addon>
+  <addon id="plugin.video.youtube" name="YouTube" version="7.2.0.3" provider-name="anxdpanic, bromix, MoojMidge">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" version="2.27.1" />
+      <import addon="inputstream.adaptive" version="19.0.0" />
+      <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true" />
+      <import addon="script.module.pysocks" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/plugin.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/service.py" />
+    <extension point="xbmc.python.module" library="resources/lib/" />
+    <extension point="xbmc.python.script" library="resources/lib/script.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <assets>
+        <icon>resources/media/icon.png</icon>
+        <fanart>resources/media/fanart.jpg</fanart>
+      </assets>
+      <platform>all</platform>
+      <license>GPL-2.0-only</license>
+      <forum>https://ytaddon.panicked.xyz/forum</forum>
+      <website>https://www.youtube.com</website>
+      <source>https://github.com/anxdpanic/plugin.video.youtube</source>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+      <summary lang="bg_BG">Добавка за YouTube</summary>
+      <summary lang="cs_CZ">Plugin pro YouTube</summary>
+      <summary lang="da_DK">Plugin til YouTube</summary>
+      <summary lang="de_DE">Plugin für YouTube</summary>
+      <summary lang="el_GR">Πρόσθετο YouTube</summary>
+      <summary lang="en_GB">Plugin for YouTube</summary>
+      <summary lang="eo">Aldonaĵo por YouTube</summary>
+      <summary lang="es_ES">Complemento para YouTube</summary>
+      <summary lang="es_MX">Complemento para YouTube</summary>
+      <summary lang="et_EE">YouTube lisamoodul</summary>
+      <summary lang="fi_FI">YouTube-lisäosa</summary>
+      <summary lang="fr_FR">Plugin pour YouTube</summary>
+      <summary lang="he_IL">תוסף עבור YouTube</summary>
+      <summary lang="hr_HR">Dodatak za YouTube</summary>
+      <summary lang="hu_HU">YouTube kiegészítő</summary>
+      <summary lang="id_ID">Pengaya untuk YouTube</summary>
+      <summary lang="it_IT">Plugin per YouTube</summary>
+      <summary lang="ko_KR">유튜브 플러그인</summary>
+      <summary lang="nb_NO">Tillegg for YouTube</summary>
+      <summary lang="nl_NL">Plugin voor YouTube</summary>
+      <summary lang="pl_PL">Wtyczka YouTube</summary>
+      <summary lang="pt_BR">Plugin para YouTube</summary>
+      <summary lang="ro_RO">Modul pentru YouTube</summary>
+      <summary lang="ru_RU">Видеодополнение YouTube</summary>
+      <summary lang="sk_SK">Doplnok pre YouTube</summary>
+      <summary lang="sv_SE">Insticksmodul för YouTube</summary>
+      <summary lang="tr_TR">YouTube için eklenti</summary>
+      <summary lang="uk_UA">Додаток для YouTube</summary>
+      <summary lang="vi_VN">Plugin dành cho YouTube</summary>
+      <summary lang="zh_CN">油管插件</summary>
+      <summary lang="zh_TW">YouTube附加元件</summary>
+      <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+      <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
+      <description lang="da_DK">YouTube er et af verdens største videodelingswebsteder.</description>
+      <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+      <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+      <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+      <description lang="es_ES">YouTube es uno de los sitios web para compartir vídeos más grandes del mundo.</description>
+      <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+      <description lang="fi_FI">YouTube on yksi maailman suurimmista videoiden jakosivustoista.</description>
+      <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+      <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+      <description lang="hr_HR">YouTube je jedna od najvećih stranica za dijeljenje video sadržaja na svijetu.</description>
+      <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+      <description lang="id_ID">YouTube adalah salah satu situs web berbagi video terbesar di dunia.</description>
+      <description lang="it_IT">YouTube è uno dei più grandi siti di condivisione video del mondo.</description>
+      <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+      <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+      <description lang="nl_NL">YouTube is een van de grootste videodelenwebsite in de hele wereld.</description>
+      <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+      <description lang="pt_BR">O YouTube é um dos maiores sites de compartilhamento de vídeos do mundo.</description>
+      <description lang="ro_RO">YouTube este unul dintre cele mai mari saituri de distribuire de videoclipuri din lume.</description>
+      <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+      <description lang="sk_SK">YouTube je jednou z najväčších stránok na zdieľanie videa na svete.</description>
+      <description lang="sv_SE">YouTube är en av världens största webbplatser för videodelning.</description>
+      <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir.</description>
+      <description lang="uk_UA">YouTube є одним з найбільших відеохостингів в світі.</description>
+      <description lang="vi_VN">YouTube là một trong những trang web chia sẻ video lớn nhất trên thế giới.</description>
+      <description lang="zh_CN">油管是世界上最大的视频分享网站之一。</description>
+      <description lang="zh_TW">Youtube 是全世界最大的影片分享網站。</description>
+      <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
+      <disclaimer lang="da_DK">Dette plugin er ikke godkendt af Google</disclaimer>
+      <disclaimer lang="de_DE">Dieses Plugin ist nicht von Google befürwortet</disclaimer>
+      <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+      <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+      <disclaimer lang="eo">Tiu aldonaĵo ne estas aprobita de Google</disclaimer>
+      <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+      <disclaimer lang="es_MX">Este complemento no está respaldado por Google</disclaimer>
+      <disclaimer lang="fi_FI">Google ei tue tätä lisäosaa</disclaimer>
+      <disclaimer lang="fr_FR">Ce module n'est pas validé par Google</disclaimer>
+      <disclaimer lang="hr_HR">Ovaj dodatak nije podržan od strane Googlea</disclaimer>
+      <disclaimer lang="id_ID">Plugin ini tidak didukung oleh Google</disclaimer>
+      <disclaimer lang="it_IT">Questo plugin non è approvato da Google</disclaimer>
+      <disclaimer lang="ko_KR">이 플러그인은 Google의 허가를 받지 않았습니다</disclaimer>
+      <disclaimer lang="nl_NL">Deze plug-in wordt niet door Google ondersteund</disclaimer>
+      <disclaimer lang="pl_PL">Ta wtyczka nie jest zatwierdzona przez Google</disclaimer>
+      <disclaimer lang="pt_BR">Este plugin não é recomendado pelo Google</disclaimer>
+      <disclaimer lang="ro_RO">Acest modul nu este susținut de Google</disclaimer>
+      <disclaimer lang="ru_RU">Плагин не поддерживается Google</disclaimer>
+      <disclaimer lang="sk_SK">Tento doplnok nie je schválený spoločnosťou Google</disclaimer>
+      <disclaimer lang="sv_SE">Denna insticksmodul är inte godkänd av Google</disclaimer>
+      <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
+      <disclaimer lang="uk_UA">Цей плагін не має відношення до компанії Google</disclaimer>
+      <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
+      <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
+      <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+      <news>## v7.2.0.3
+### Fixed
+- Fix performance regression with channel filters
+- Fix regression preventing video playback from Kodi Info dialog
+- Fix exception in youtube.helper.v3.response_to_items when using Kodi 18 (Python 2)
+- Fix exception in YouTubeRequestClient.json_traverse when using Kodi 18 (Python 2)
+- Fix handling of custom Watch Later playlist in add to playlist dialog
+- Fix Liked video playlist not loading
+- Fix typo preventing some video only searches from working
+- Fix incorrect deletion of provider parameter in 10c3758
+- Fix possible hangs in multiple busy dialog workaround
+- Fix misidentifying channels in channel filter
+- Attempt to avoid race condition where user input occurs prior to window rerouting
+- Fix incorrectly referencing channels as playlist in My Subscriptions after db44928
+- Improve handling of invalid playlists in My Subscriptions after db44928
+- Update YouTube.get_related_videos and YouTube.get_related_for_home
+- Fix error with listing comments if number of replies is 1000+
+- Fix regression in opening playlists of logged in user
+- Fix regressions in checking channel filters
+- Clear old function cache values on initial run after install
+- Fix My Subscriptions not loading old or previously accessed content
+- Manually redirect video server requests if required
+- Improve logging of client ID
+- Fix possible exception that may occur if video thumbnails fail to update
+- Fix unsubscribing from My Subscriptions
+- Fix folders for channel shorts and live stream</news>
     </extension>
   </addon>
 </addons>
