@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <addons>
-  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.13" provider-name="WLTV Group">
+  <addon id="plugin.video.wltvhelper" name="World Live TV" version="1.2.14" provider-name="WLTV Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.12.4" />
@@ -39,58 +39,48 @@
         <screenshot>resources/images/screen3.png</screenshot>
       </assets>
       <news>
-      hotfix 1.2.13.17
+      v 1.2.14
+      - more timeout on check server on line
+      - fix EPG on first installation
+      - fix EPG if more db files
+      - sort TGR choices
+      - fix SkyLineWebcam
+      - add 7gold emilia
       - fix Teletruria
-      hotfix 1.2.13.16
       - various fix for new tool adjustment
       - youtube music search
-      hotfix 1.2.13.15
       - add castr broadcaster
       - fix saiuz
       - add delay discovery on settings
-      hotfix 1.2.13.14
       - fix siscione regionals channels
       - fix discovery channels
-      hotfix 1.2.13.13
       - freezes discovery fix
-      hotfix 1.2.13.12
       - new epg reload and speedup
       - another discovery fix
-      hotfix 1.2.13.11
       - another discovery fix
-      hotfix 1.2.13.10
       - removed wrong widevine message
       - partial discovery fix
-      hotfix 1.2.13.09
       - Fix some regionals
       - Widevine check
       - fix sportitalia
-      hotfix 1.2.13.08
       - Fix some regionals
-      hotfix 1.2.13.07
       - Fix Reload EPG Label in settings
       - Fix some regionals
-      hotfix 1.2.13.06
       - Rai3 play other specific region streams
       - choose rai mpd or hls
       - fix log link
       - converted settings.xml to new version
       - unused code cleanup
-      hotfix 1.2.13.05
       - fix kodi log uploader
       - added premio broadcaster to fix some channels
       - fix sciscione channels adding relative broadcarter
       - sped up rai zapping
       - sped up discovery zapping
-      hotfix 1.2.13.04
       - Add Abu Dhabi TV
       - mediaset refactoring, sped up mediaset zapping, added credentials management
       - samsung broadcaster
-      hotfix 1.2.13.03
       - fix Rai FHD
-      hotfix 1.2.13.02
       - fix checkServerOnline bug
-      hotfix 1.2.13.01
       - log offline server
       v 1.2.13
       - epg lock evidence
